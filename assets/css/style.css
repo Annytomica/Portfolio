@@ -8,5 +8,14 @@
     box-sizing: border-box;
 }
 
+/* general styles */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #13261F;
+}
 
+h1, h2, h3 {
+    font-family: 'Podkova', sans-serif;
+    color: #13261F;
+}
 
