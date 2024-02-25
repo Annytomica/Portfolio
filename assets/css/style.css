@@ -24,16 +24,20 @@ h1, h2, h3 {
 /* header styles */
 header {
     background-color: #13261F;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #logo-image {
     width: 40px;
-    padding: 5px 10px;
 }
 
 #logo-name {
     color: #db9c0c;
+    text-decoration: none;
 }
