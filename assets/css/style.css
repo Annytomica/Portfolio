@@ -12,6 +12,8 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #13261F;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -19,3 +21,19 @@ h1, h2, h3 {
     color: #13261F;
 }
 
+/* header styles */
+header {
+    background-color: #13261F;
+    width: 100%;
+    display: flex;
+
+}
+
+#logo-image {
+    width: 40px;
+    padding: 5px 10px;
+}
+
+#logo-name {
+    color: #db9c0c;
+}
