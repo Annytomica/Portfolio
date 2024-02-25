@@ -12,6 +12,8 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #13261F;
+    /* responsive features */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -24,13 +26,13 @@ h1, h2, h3 {
 /* header styles */
 header {
     background-color: #13261F;
+    width: 100%;
     padding: 0 1rem;
+    /* to stay visible when scrolling */
     position: fixed;
     z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+
+
 }
 
 #logo-image {
@@ -40,4 +42,13 @@ header {
 #logo-name {
     color: #db9c0c;
     text-decoration: none;
+}
+nav {
+    
+}
+#menu {
+    font-family: 'Podkova', sans-serif;
+    font-size: 130%;
+    color: #db9c0c;
+    
 }
