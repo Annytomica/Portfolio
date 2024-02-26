@@ -73,6 +73,7 @@ header a {
 /* color change of menu item when on page*/
 .active {
     color: #C74E24;
+    border-bottom: 1px solid #C74E24;
 }
 
 
@@ -116,6 +117,21 @@ main {
 /* footer */
 footer {
     background-color: #13261F;
+    text-align: center;
+}
+
+#professional-networks {
+
+}
+
+#professional-networks i{
+    color: #db9c0c;
+    font-size: 150%;
+}
+
+#copyright {
+    color: #db9c0c;
+    font-size: 10px;
 }
 
 /* all media querys */
