@@ -123,6 +123,22 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    #nav-toggle-label {
+        display: none;
+    }
+
+    #logo-image {
+        margin: 5px 10px 0 0;
+    }
 }
 
 /* laptops and up from 992px */
