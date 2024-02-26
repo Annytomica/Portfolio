@@ -150,22 +150,41 @@ footer {
 
 /* laptops and up from 992px */
 @media screen and (min-width: 992px) {
+    /* Header */ 
     #logo-image {
         width: 55px;
+    }
+
+    #logo-image:hover {
+        border: 1px solid #9E9E7B;
     }
     
     #logo-name {
         font-size: 2rem;
     }
 
+    #logo-name:hover {
+        color: #9E9E7B;
+    }
+
     nav {
         font-size: 1.5rem;
+    }
+
+    #menu a:hover {
+        color: #9E9E7B;
+        border-bottom: 1px solid #9E9E7B;
+    }
+    /* Main */
+    main {
+        margin-top: 67px;
     }
 }
 
 
 /* largest screens only - above 1200px */
 @media screen and (min-width: 1200px) {
+    /* Header */
     #logo-image {
         width: 65px;
     }
@@ -178,5 +197,10 @@ footer {
     
     #menu > li {
         padding-left: 3rem;
+    }
+
+    /* Main */
+    main {
+        margin-top: 84px;
     }
 }
