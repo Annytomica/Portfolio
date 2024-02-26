@@ -48,9 +48,9 @@ header a {
 #logo-image {
     width: 40px;
     float: left;
-    margin: 5px 10px 0 0;
+    margin: 0 10px 0 0;
 }
-
+ 
 #logo-name {
     color: #db9c0c;
     width: 9em;
@@ -95,6 +95,7 @@ nav {
 #nav-toggle-label {
     font-size: 2rem;
     color: #db9c0c;
+    padding-top: 5px;
 }
 
 /* main content */
@@ -107,4 +108,22 @@ main {
 /* footer */
 footer {
     background-color: #13261F;
+}
+
+/* all media querys */
+
+/* tablets and up from 768px */
+@media  and (min-width: 768px) {
+    
+}
+
+/* laptops and up from 992px */
+@media  and (min-width: 992px) {
+    
+}
+
+
+/* largest screens only - above 1200px */
+@media  and (min-width: 1200px) {
+    
 }
