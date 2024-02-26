@@ -49,15 +49,19 @@ header a {
 
 #logo-name {
     color: #db9c0c;
+    margin-bottom: 1em;
 }
 
 #menu {
     font-family: 'Podkova', sans-serif;
     font-size: 130%;
     list-style-type: none;
-    /* font spacing - may not be required for podkova */
-    letter-spacing: 1px;
-    
+    /* font spacing - 1px only for podkova */
+    letter-spacing: 1px; 
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
 }
 
 /* main content */
