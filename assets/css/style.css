@@ -114,17 +114,24 @@ footer {
 /* all media querys */
 
 /* tablets and up from 768px */
-@media  and (min-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 }
 
 /* laptops and up from 992px */
-@media  and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     
 }
 
 
 /* largest screens only - above 1200px */
-@media  and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     
 }
