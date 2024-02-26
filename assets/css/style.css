@@ -21,6 +21,7 @@ body {
 h1, h2, h3 {
     font-family: 'Podkova', sans-serif;
     color: #13261F;
+    letter-spacing: 1px;
 }
 
 /* header styles */
@@ -51,6 +52,9 @@ header a {
 #menu {
     font-family: 'Podkova', sans-serif;
     font-size: 130%;
+    list-style-type: none;
+    /* font spacing - may not be required for podkova */
+    letter-spacing: 1px;
     
 }
 
