@@ -69,6 +69,12 @@ header a {
     margin-bottom: 0.5em;
 }
 
+/* color change of menu item when on page*/
+.active {
+    color: #C74E24;
+}
+
+
 /* Navbar styles with dropdown toggle from 'love running' */
 nav {
     position: absolute;
