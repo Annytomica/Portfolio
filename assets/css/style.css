@@ -103,6 +103,7 @@ main {
     background-color: #fdefd0;
     /* sets page spacing with footer to bottom of view */
     flex: 1 0 auto;
+    margin-top: 55px;
 }
 
 /* footer */
