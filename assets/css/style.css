@@ -33,7 +33,11 @@ header {
     z-index: 99;
     /* soft box shadow for visual depth/float */
     box-shadow: 0 2px 5px #45554a;
+}
 
+header a {
+    text-decoration: none;
+    color: #db9c0c;
 }
 
 #logo-image {
@@ -42,15 +46,11 @@ header {
 
 #logo-name {
     color: #db9c0c;
-    text-decoration: none;
 }
-nav {
-    
-}
+
 #menu {
     font-family: 'Podkova', sans-serif;
     font-size: 130%;
-    color: #db9c0c;
     
 }
 
