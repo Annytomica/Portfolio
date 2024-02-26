@@ -31,7 +31,8 @@ header {
     /* to stay visible when scrolling */
     position: fixed;
     z-index: 99;
-
+    /* soft box shadow for visual depth/float */
+    box-shadow: 0 2px 5px #45554a;
 
 }
 
