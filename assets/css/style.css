@@ -34,6 +34,10 @@ header {
     z-index: 99;
     /* soft box shadow for visual depth/float */
     box-shadow: 0 2px 5px #45554a;
+    /* formatting for nav bar placement */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,7 +53,7 @@ header a {
 
 #logo-name {
     color: #db9c0c;
-    margin-bottom: 1em;
+    padding: 0.5em;
 }
 
 #menu {
@@ -62,6 +66,34 @@ header a {
 
 #menu > li {
     margin-bottom: 0.5em;
+}
+
+/* Navbar styles with dropdown toggle from 'love running' */
+nav {
+    position: absolute;
+    background-color: #13261F;
+    width: 100%;
+    left: 0;
+    padding:0 1rem;
+    box-shadow: 0 2px 5px #45554a;
+    display: none;
+    top: 100%;
+    color: #db9c0c;
+    
+}
+
+/* Nav toggle - from 'love running' */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 2rem;
+    color: #db9c0c;
 }
 
 /* main content */
