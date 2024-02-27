@@ -121,17 +121,21 @@ footer {
 }
 
 #professional-networks {
-
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 #professional-networks i{
     color: #db9c0c;
     font-size: 150%;
+    padding: 10px;
 }
 
 #copyright {
     color: #db9c0c;
     font-size: 10px;
+    padding-bottom: 10px;
 }
 
 /* all media querys */
