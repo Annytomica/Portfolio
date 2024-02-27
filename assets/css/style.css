@@ -145,9 +145,16 @@ main {
 
 /* Publications page*/
 #publications {
-    margin: 10px;
+    margin: 10px 20px;
 }
 
+#publications-header {
+    padding-bottom: 10px;
+}
+
+#publications-list {
+    
+}
 
 /* footer */
 footer {
