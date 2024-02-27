@@ -108,7 +108,7 @@ nav {
 
 /* main content */
 main {
-    background-color: #fdefd0;
+    background-color: #FCF8F0;
     /* sets page spacing with footer to bottom of view */
     flex: 1 0 auto;
     /* prevents header overlaping content in main*/
