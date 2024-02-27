@@ -143,6 +143,11 @@ main {
     color: #fdefd0;
 }
 
+/* Publications page*/
+#publications {
+    margin: 10px;
+}
+
 
 /* footer */
 footer {
