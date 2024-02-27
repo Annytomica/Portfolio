@@ -239,6 +239,16 @@ footer {
     main {
         margin-top: 67px;
     }
+
+     /* Hero section */
+     .hero {
+        height: 400px;
+    }
+
+    #hero-title {
+        font-size: 200%;
+        width: 350px;
+        height: 130px;
 }
 
 
@@ -262,5 +272,10 @@ footer {
     /* Main */
     main {
         margin-top: 84px;
+    }
+
+    /* Hero section */
+    .hero {
+        height: 500px;
     }
 }
