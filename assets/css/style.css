@@ -158,8 +158,6 @@ main {
     /* to create overhanging first word*/
     margin-left: 30px;
     text-indent: -30px;
-    
-
 }
 
 /* footer */
@@ -187,6 +185,21 @@ footer {
 }
 
 /* all media querys */
+
+/* for small screens below 768px*/
+@media screen and (max-width: 767px){
+/* publications*/
+ /* to hide extended author list for small screens*/
+ .hidden-authors {
+    clip-path: inset(100%);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+ }
+}
 
 /* tablets and up from 768px */
 @media screen and (min-width: 768px) {
@@ -224,6 +237,19 @@ footer {
     .hero {
         height: 300px;
     }
+
+    /* publications*/
+    /* to reveal extended author list for larger screens*/
+    .et-al {
+        clip-path: inset(100%);
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
 }
 
 /* laptops and up from 992px */
