@@ -239,6 +239,16 @@ footer {
     }
 
     /* publications*/
+    #publications-header {
+        padding-bottom: 20px;
+        font-size: 120%;
+    }
+
+    #publications-list p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
     /* to reveal extended author list for larger screens*/
     .et-al {
         clip-path: inset(100%);
@@ -293,6 +303,20 @@ footer {
         font-size: 200%;
         width: 350px;
         height: 130px;
+    }
+
+    /* Publications */
+    #publications-header {
+        padding-bottom: 20px;
+        font-size: 150%;
+    }
+
+    #publications-list p {
+        font-size: 16px;
+        /* to increase overhanging first word*/
+        margin-left: 50px;
+        text-indent: -50px;
+    }
 }
 
 
