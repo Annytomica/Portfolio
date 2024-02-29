@@ -160,6 +160,11 @@ main {
     text-indent: -30px;
 }
 
+/* Contact Page*/
+#contact-title {
+    color: #13261F;
+}
+
 /* footer */
 footer {
     background-color: #13261F;
