@@ -161,8 +161,37 @@ main {
 }
 
 /* Contact Page*/
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contact-block {
+    /* allows the details and message divs to wrap on wider screens */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 20px;
+}
+
+#contact-block div {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
 #contact-title {
     color: #13261F;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #13261F;
 }
 
 /* footer */
