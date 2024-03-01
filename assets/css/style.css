@@ -162,28 +162,54 @@ main {
 
 /* Contact Page*/
 #contact {
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
     letter-spacing: 1px;
-}
-
-#contact-block {
-    /* allows the details and message divs to wrap on wider screens */
+    /* allows child form to center on screen*/
     display: flex;
-    flex-wrap: wrap;
-    margin: 5px 20px;
+    justify-content: center;
 }
 
-#contact-block div {
-    flex-basis: 250px;
-    flex-grow: 1;
+#contact-form {
+    background-color: rgba(69, 85, 74, 0.6);
+    border-radius: 5px;
+    /* controls maximum width of form on page*/
+    width: 100%;
+    max-width: 800px;
+    /* allows child h2 and div to center on screen */
+    display: flex;
+    justify-content: center;
+
+    
 }
 
 #contact-title {
     color: #13261F;
     padding: 5px;
     margin: 0 20px;
+    max-height: 40px;
+    position: absolute;
+    
+}
+
+#contact-block {
+    margin: 50px 20px;
+    /* controls maximum width of form on page*/
+    width: 100%;
+    max-width: 800px;
+    /* allows the details and message divs to wrap on wider screens */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#contact-block div {
+    margin: 0 10px;
+    /* div dimensions that control when divs stack vs align in row */ 
+    min-width: 250px;
+    width: 45%;
+    /* div dimension that controls how big they get on large screens*/
+    max-width: 500px;
+
 }
 
 .text-input {
