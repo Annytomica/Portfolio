@@ -186,7 +186,8 @@ main {
 }
 
 #contact-title {
-    color: #13261F;
+    color: #fdefd0;
+    font-weight: 500;
     padding: 5px;
     margin: 0 20px;
     max-height: 40px;
@@ -194,6 +195,8 @@ main {
 }
 
 #contact-block {
+    color: #fdefd0;
+    font-weight: 500;
     margin: 50px 20px;
     /* controls maximum width of form on page*/
     width: 100%;
@@ -220,7 +223,7 @@ main {
     margin: 5px 0;
     background: transparent;
     border-radius: 5px;
-    border: 1px solid #13261F;
+    border: 1px solid #fdefd0;
 }
 
 #submit-button {
@@ -399,6 +402,11 @@ footer {
         /* to increase overhanging first word*/
         margin-left: 50px;
         text-indent: -50px;
+    }
+
+    /* Contact Page*/
+    #contact {
+        height: 1000px;
     }
 }
 
