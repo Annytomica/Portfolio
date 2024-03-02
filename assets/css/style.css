@@ -162,14 +162,19 @@ main {
 
 /* Contact Page*/
 #contact {
-    margin-top: 20px;
     letter-spacing: 1px;
+    /* add background image*/
+    width: 100%;
+    height: 600px;
+    background: url(../images/MN_TEM_150x90_withColour.webp) no-repeat center center/cover;
     /* allows child form to center on screen*/
     display: flex;
     justify-content: center;
 }
 
 #contact-form {
+    margin-top: 20px;
+    margin-bottom: auto;
     background-color: rgba(69, 85, 74, 0.6);
     border-radius: 5px;
     /* controls maximum width of form on page*/
@@ -177,9 +182,7 @@ main {
     max-width: 800px;
     /* allows child h2 and div to center on screen */
     display: flex;
-    justify-content: center;
-
-    
+    justify-content: center; 
 }
 
 #contact-title {
@@ -187,8 +190,7 @@ main {
     padding: 5px;
     margin: 0 20px;
     max-height: 40px;
-    position: absolute;
-    
+    position: absolute; 
 }
 
 #contact-block {
@@ -329,6 +331,17 @@ footer {
         white-space: nowrap;
         width: 1px;
     }
+
+    /* Contact Page*/
+    #contact {
+        height: 650px;
+    }
+
+    #contact-form {
+        margin-top: 100px;
+        align-content: center;
+    }
+
 
 }
 
