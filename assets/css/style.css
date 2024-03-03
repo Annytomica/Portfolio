@@ -126,6 +126,33 @@ main {
     /* to enable hero title positioning*/
     position: relative;
 }
+/* Homepage Hero section */
+#hero1 {
+    width: 100%;
+    height: 150px;
+    font-size: 70%;
+    background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
+    /* to enable hero title positioning*/
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+#scientist, #coder{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+} 
+
+#scientist h1{
+    position: relative;
+    padding-right: 30%;
+}
+
+#coder h1{
+    position: relative;
+    padding-left: 30%;
+}
 
 #hero-title {
     font-size: 150%;
@@ -166,7 +193,7 @@ main {
     /* add background image*/
     width: 100%;
     height: 600px;
-    background: url(../images/MN_TEM_150x90_withColour.webp) no-repeat center center/cover;
+    background: url(../images/mn_tem_150x90_with-colour.webp) no-repeat center center/cover;
     /* allows child form to center on screen*/
     display: flex;
     justify-content: center;
