@@ -132,12 +132,24 @@ main {
     height: 150px;
     font-size: 70%;
     background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
-    /* to enable hero title positioning*/
+    /* to enable hero title positioning */
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#hero1-title {
+    width: 100%;
+    /* to ensure title text does not migrate too far away from image on large screens */
+    max-width: 1200px;
+    /* to enable hero title positioning */
     position: relative;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
 }
+
 #scientist, #coder{
     display: flex;
     width: 50%;
@@ -303,6 +315,19 @@ footer {
  }
 }
 
+/* large mobiles and up from 400px */
+@media screen and (min-width: 400px) {
+
+    /* Hero section */
+    /* Homepage Hero section*/
+
+    #hero1 {
+        height: 200px;
+        font-size: 100%;
+    }
+}
+
+
 /* tablets and up from 768px */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -338,6 +363,11 @@ footer {
     /* Hero section */
     .hero {
         height: 300px;
+    }
+
+    #hero1 {
+        height: 300px;
+        font-size: 120%;
     }
 
     /* publications*/
@@ -418,6 +448,21 @@ footer {
         height: 130px;
     }
 
+    /* Homepage Hero section*/
+
+    #hero1 {
+        height: 400px;
+        font-size: 200%;
+    }
+
+    #scientist h1{
+        padding-right: 40%;
+    }
+    
+    #coder h1{
+        padding-left: 40%;
+    }
+
     /* Publications */
     #publications-header {
         padding-bottom: 20px;
@@ -463,5 +508,12 @@ footer {
     /* Hero section */
     .hero {
         height: 500px;
+    }
+
+    /* Homepage Hero section*/
+
+    #hero1 {
+        height: 500px;
+        font-size: 250%;
     }
 }
