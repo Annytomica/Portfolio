@@ -126,6 +126,7 @@ main {
     /* to enable hero title positioning*/
     position: relative;
 }
+/* Homepage */
 /* Homepage Hero section */
 #hero1 {
     width: 100%;
@@ -180,6 +181,45 @@ main {
 }
 #hero-title h1,h2 {
     color: #fdefd0;
+}
+ /* Homepage New Projects section */
+#projects-section {
+    width: 100%;
+    /* to center projects header and area */
+    display: flex;
+    justify-content: center;
+}
+
+#projects-header {
+    width: 100%;
+    max-height: 50px;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid #13261F;
+    position: absolute;
+}
+
+#projects-area {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 80px;
+    /* allows adaptive positioning for screen size*/
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px solid #13261F;
+}
+
+.new-projects {
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    border: 1px solid #13261F;
+}
+
+.new-projects div, h2, p{
+    border: 1px solid #13261F;
 }
 
 /* Publications page*/
@@ -369,6 +409,16 @@ footer {
         height: 300px;
         font-size: 120%;
     }
+
+    /* hompage projects section */
+
+    .new-projects {
+        width: 280px;
+        height: 300px;
+        margin: 10px;
+        border: 1px solid #13261F;
+    }
+
 
     /* publications*/
     #publications-header {
