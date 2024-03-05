@@ -242,6 +242,27 @@ main {
     border-radius: 5px;
 }
 
+/* Portfolio page */
+/* Portfolio hero section */
+#hero2 {
+    width: 100%;
+    height: 170px;
+    font-size: 100%;
+    background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
+    /* to enable hero title positioning */
+    position: relative;
+    display: flex;
+    justify-content: center; 
+}
+
+#hero2-title {
+    margin-top: 8px;
+}
+
+/* Portfolio projects section */
+
+
+
 /* Publications page*/
 #publications {
     margin: 10px 20px;
