@@ -126,6 +126,23 @@ main {
     /* to enable hero title positioning*/
     position: relative;
 }
+
+#hero-title {
+    font-size: 150%;
+    background-color: rgba(158, 158, 123, 0.5);
+    padding: 10px 20px;
+    width: 270px;
+    height: 100px;
+    /* to keep title at bottom left of hero image*/
+    position: absolute;
+    bottom: 0;
+    /* to round background box corners on right edge */
+    border-radius: 0 15px 15px 0;
+}
+#hero-title h1,h2 {
+    color: #fdefd0;
+}
+
 /* Homepage */
 /* Homepage Hero section */
 #hero1 {
@@ -167,21 +184,6 @@ main {
     padding-left: 30%;
 }
 
-#hero-title {
-    font-size: 150%;
-    background-color: rgba(158, 158, 123, 0.5);
-    padding: 10px 20px;
-    width: 270px;
-    height: 100px;
-    /* to keep title at bottom left of hero image*/
-    position: absolute;
-    bottom: 0;
-    /* to round background box corners on right edge */
-    border-radius: 0 15px 15px 0;
-}
-#hero-title h1,h2 {
-    color: #fdefd0;
-}
  /* Homepage New Projects section */
 #projects-section {
     width: 100%;
@@ -260,7 +262,30 @@ main {
 }
 
 /* Portfolio projects section */
+.portfolio {
+    width: 100%;
+    /* to center projects header and area */
+    display: flex;
+    justify-content: center;
+    border: 1px solid #13261F;
+}
 
+.portfolio-text {
+    border: 1px solid #13261F;
+}
+
+.portfolio-image {
+    border: 1px solid #13261F;
+}
+
+.project-image {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    background-color: #9E9E7B;
+    border-radius: 5px;
+    border: 1px solid #13261F;
+}
 
 
 /* Publications page*/
