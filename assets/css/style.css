@@ -250,15 +250,27 @@ main {
     width: 100%;
     height: 170px;
     font-size: 100%;
-    background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
+    background: url(../images/hero1__portfolio_smallscreen.webp) no-repeat right center/cover;
     /* to enable hero title positioning */
     position: relative;
     display: flex;
-    justify-content: center; 
+    justify-content: left; 
+    align-content: center;
 }
 
 #hero2-title {
-    margin-top: 8px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
+}
+
+#hero2-title h1{
+    height: 50px;
+    align-self: center;
+    text-align: right;
+    margin-right: 15px;
 }
 
 /* Portfolio projects section */
@@ -431,6 +443,16 @@ footer {
         height: 200px;
         font-size: 100%;
     }
+
+    /* Portfolio Hero section*/
+    #hero2 {
+        height: 170px;
+        font-size: 150%;
+    }
+
+    #hero2-title h1{
+        margin: 0;
+    }
 }
 
 
@@ -485,6 +507,13 @@ footer {
         border: 1px solid #13261F;
     }
 
+    /* portfolio hero section */
+    #hero2 {
+        height: 170px;
+        font-size: 150%;
+        /* change background image to one suited for larger screens */
+        background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
+    }
 
     /* publications*/
     #publications-header {
@@ -548,6 +577,7 @@ footer {
         color: #9E9E7B;
         border-bottom: 1px solid #9E9E7B;
     }
+
     /* Main */
     main {
         margin-top: 67px;
@@ -578,6 +608,17 @@ footer {
     #coder h1{
         padding-left: 40%;
     }
+
+    /* Portfolio Hero section*/
+    #hero2 {
+        height: 350px;
+        font-size: 200%;
+    }
+
+    #hero2-title {
+        width: 45%;
+    }
+
 
     /* Publications */
     #publications-header {
@@ -637,4 +678,15 @@ footer {
 
     #projects-area {
         max-width: 1300px;
+    }
+
+    /* Portfolio Hero section*/
+    #hero2 {
+        height: 500px;
+        font-size: 250%;
+    }
+
+    #hero2-title {
+        width: 45%;
+    }
 }
