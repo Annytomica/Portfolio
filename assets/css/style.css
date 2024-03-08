@@ -616,7 +616,8 @@ footer {
     }
 
     #hero2-title {
-        width: 45%;
+        width: 50%;
+        justify-content: center;
     }
 
 
@@ -640,7 +641,7 @@ footer {
 }
 
 
-/* largest screens only - above 1200px */
+/* large screens - above 1200px */
 @media screen and (min-width: 1200px) {
     /* Header */
     #logo-image {
@@ -682,11 +683,26 @@ footer {
 
     /* Portfolio Hero section*/
     #hero2 {
-        height: 500px;
+        height: 450px;
         font-size: 250%;
     }
 
     #hero2-title {
         width: 45%;
     }
+}
+
+/* XL screens - above 2000px */
+@media screen and (min-width: 2000px) {
+    
+    /* Portfolio Hero section*/
+    #hero2 {
+        height: 500px;
+        font-size: 250%;
+    }
+    
+    #hero2-title {
+        justify-content: right;
+    }
+
 }
