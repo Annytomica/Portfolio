@@ -172,17 +172,45 @@ main {
     display: flex;
     width: 50%;
     justify-content: center;
+    flex-flow: row wrap;
 } 
 
-#scientist h1{
+#scientist h1 {
     position: relative;
     padding-right: 30%;
+    border: 1px solid #13261F;
 }
 
-#coder h1{
+#coder h1 {
     position: relative;
     padding-left: 30%;
+    border: 1px solid #13261F;
 }
+
+/* for paragraphs hidden on screens smaller than 768px */
+#scientist p {
+    color: #45554a;
+    font-size: 50%;
+    /*width: 400px;*/
+   text-align: left; 
+    margin-top: 5px;
+    margin-right: 15%;
+    position: relative;
+    border: 1px solid #13261F;
+    padding: 5px 35% 0 20%;
+}
+#coder p {
+    color: #45554a;
+    font-size: 50%;
+    /*width: 400px;*/
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 15%;
+    position: relative;
+    padding: 5px 20% 0 35%;
+    border: 1px solid #13261F;
+}
+
 
  /* Homepage New Projects section */
 #projects-section {
@@ -473,6 +501,11 @@ footer {
 
 /* for small screens below 768px*/
 @media screen and (max-width: 767px){
+    /* Main - general rule for all pages */
+    .hidden {
+        display: none;
+    }
+    
     /* publications*/
     /* to hide extended author list for small screens - from w3.org*/
     .hidden-authors {
