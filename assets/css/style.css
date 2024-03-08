@@ -87,8 +87,7 @@ nav {
     box-shadow: 0 2px 5px #45554a;
     display: none;
     top: 100%;
-    color: #db9c0c;
-    
+    color: #db9c0c;  
 }
 
 /* Nav toggle - from 'love running' */
@@ -305,13 +304,12 @@ main {
 #hero3 {
     width: 100%;
     height: 170px;
-    font-size: 100%;
+    font-size: 70%;
     background: url(../images/hero1_publications.webp) no-repeat left center/cover;
     /* to enable hero title positioning */
     position: relative;
     display: flex;
     justify-content: right; 
-    align-content: center;
 }
 
 #hero3-title {
@@ -325,7 +323,7 @@ main {
     height: 50px;
     align-self: center;
     text-align: left;
-    margin-left: 15px;
+    margin: 15px 0 0 20px;
 }
 
 /* Publications content section */
@@ -463,7 +461,7 @@ footer {
 /* large mobiles and up from 400px */
 @media screen and (min-width: 400px) {
 
-    /* Hero section */
+    /* Homepage */
     /* Homepage Hero section*/
 
     #hero1 {
@@ -471,6 +469,7 @@ footer {
         font-size: 100%;
     }
 
+    /* Portfolio page */
     /* Portfolio Hero section*/
     #hero2 {
         height: 170px;
@@ -480,6 +479,18 @@ footer {
     #hero2-title h1{
         margin: 0;
     }
+
+    /* Publications page */
+    /* Publications Hero section */
+    #hero3 {
+        height: 170px;
+        font-size: 120%;
+    }
+    
+    #hero3-title h1{
+        margin: 0;
+    }
+
 }
 
 
@@ -544,12 +555,16 @@ footer {
         background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
     }
 
-    /* publications page*/
+    /* Publications page*/
     /* Publications hero section */
 
-    #hero2 {
-        height: 170px;
+    #hero3 {
+        height: 250px;
         font-size: 150%;
+    }
+
+    #hero3-title {
+        width: 60%;
     }
 
     /* Publications content section */
@@ -669,8 +684,8 @@ footer {
     }
 
     #hero3-title {
-        width: 50%;
-        justify-content: center;
+        width: 60%;
+        justify-content: left;
     }
     
     /* Publications content section*/
@@ -751,11 +766,6 @@ footer {
         height: 450px;
         font-size: 250%;
     }
-
-    #hero3-title {
-        width: 45%;
-    }
-
 }
 
 /* XL screens - above 2000px */
@@ -772,4 +782,10 @@ footer {
         justify-content: right;
     }
 
+    /* Publications page*/
+    /* Publications Hero section*/
+    #hero3 {
+        height: 600px;
+        font-size: 300%;
+    }
 }
