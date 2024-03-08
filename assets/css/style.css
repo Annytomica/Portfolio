@@ -139,6 +139,7 @@ main {
     /* to round background box corners on right edge */
     border-radius: 0 15px 15px 0;
 }
+
 #hero-title h1,h2 {
     color: #fdefd0;
 }
@@ -263,7 +264,6 @@ main {
     display: flex;
     position: relative;
     justify-content: right;
-    align-content: center;
 }
 
 #hero2-title h1{
@@ -301,6 +301,34 @@ main {
 
 
 /* Publications page*/
+/* Publications Hero section */
+#hero3 {
+    width: 100%;
+    height: 170px;
+    font-size: 100%;
+    background: url(../images/hero1_publications.webp) no-repeat left center/cover;
+    /* to enable hero title positioning */
+    position: relative;
+    display: flex;
+    justify-content: right; 
+    align-content: center;
+}
+
+#hero3-title {
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: left;
+}
+
+#hero3-title h1{
+    height: 50px;
+    align-self: center;
+    text-align: left;
+    margin-left: 15px;
+}
+
+/* Publications content section */
 #publications {
     margin: 10px 20px;
 }
@@ -371,7 +399,6 @@ main {
     width: 45%;
     /* div dimension that controls how big they get on large screens*/
     max-width: 500px;
-
 }
 
 .text-input {
@@ -420,17 +447,17 @@ footer {
 
 /* for small screens below 768px*/
 @media screen and (max-width: 767px){
-/* publications*/
- /* to hide extended author list for small screens - from w3.org*/
- .hidden-authors {
-    clip-path: inset(100%);
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
- }
+    /* publications*/
+    /* to hide extended author list for small screens - from w3.org*/
+    .hidden-authors {
+        clip-path: inset(100%);
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
 }
 
 /* large mobiles and up from 400px */
@@ -498,6 +525,7 @@ footer {
         font-size: 120%;
     }
 
+    /* Homepage */
     /* hompage projects section */
 
     .new-projects {
@@ -507,6 +535,7 @@ footer {
         border: 1px solid #13261F;
     }
 
+    /* portfolio Page*/
     /* portfolio hero section */
     #hero2 {
         height: 170px;
@@ -515,7 +544,15 @@ footer {
         background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
     }
 
-    /* publications*/
+    /* publications page*/
+    /* Publications hero section */
+
+    #hero2 {
+        height: 170px;
+        font-size: 150%;
+    }
+
+    /* Publications content section */
     #publications-header {
         padding-bottom: 20px;
         font-size: 120%;
@@ -594,6 +631,7 @@ footer {
         height: 130px;
     }
 
+    /* Homepage */
     /* Homepage Hero section*/
 
     #hero1 {
@@ -609,6 +647,7 @@ footer {
         padding-left: 40%;
     }
 
+    /* Portfolio page */
     /* Portfolio Hero section*/
     #hero2 {
         height: 350px;
@@ -621,7 +660,20 @@ footer {
     }
 
 
-    /* Publications */
+    /* Publications page*/
+    /* Publications Hero section */
+
+    #hero3 {
+        height: 350px;
+        font-size: 200%;
+    }
+
+    #hero3-title {
+        width: 50%;
+        justify-content: center;
+    }
+    
+    /* Publications content section*/
     #publications-header {
         padding-bottom: 20px;
         font-size: 150%;
@@ -668,6 +720,7 @@ footer {
         height: 500px;
     }
 
+    /* Homepage */
     /* Homepage Hero section*/
 
     #hero1 {
@@ -681,6 +734,7 @@ footer {
         max-width: 1300px;
     }
 
+    /* portfolio Page */
     /* Portfolio Hero section*/
     #hero2 {
         height: 450px;
@@ -690,11 +744,24 @@ footer {
     #hero2-title {
         width: 45%;
     }
+
+    /* Publications page */
+    /* Publications Hero section */
+    #hero3 {
+        height: 450px;
+        font-size: 250%;
+    }
+
+    #hero3-title {
+        width: 45%;
+    }
+
 }
 
 /* XL screens - above 2000px */
 @media screen and (min-width: 2000px) {
     
+    /* portfolio page*/
     /* Portfolio Hero section*/
     #hero2 {
         height: 500px;
