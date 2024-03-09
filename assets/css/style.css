@@ -666,7 +666,7 @@ footer {
     }
 
     #contact {
-        /*height: 650px;*/
+        height: 800px;
     }
 
     #contact-form {
@@ -784,7 +784,7 @@ footer {
     }
 
     #contact {
-       /* height: 1000px; */
+       height: 1000px; 
     }
 }
 
@@ -853,6 +853,11 @@ footer {
         height: 400px;
         font-size: 250%;
     }
+
+    /* contact form section */
+    #contact {
+        height: 1500px; 
+     }
 }
 
 /* XL screens - above 2000px */
@@ -882,4 +887,8 @@ footer {
         height: 600px;
         font-size: 300%;
     }
+    /* contact form section */
+    #contact {
+        height: 2000px; 
+     }
 }
