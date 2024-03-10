@@ -349,29 +349,42 @@ main {
     margin-top: 20px;
 }
 
+/* contact form section */
 #contact {
     letter-spacing: 1px;
     width: 100%;
+    height: auto;
+    background-color: #45554a;
     /* allows child elements to align or stack depending on screen size*/
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid  #13261F;
 }
+
 .contact-element {
     width: 50%;
-    /*box-sizing: border-box;
-    position: relative;
-    border: 1px solid  #13261F;*/
+    box-sizing: border-box;
+    display: block;
+    align-content: start;
+    border: 1px solid #13261F;
 }
 
 .contact-element img{
-    max-width: 100%;
-    min-width: 380px;
-    float: left;
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
+#contact-image {
+    background: url(../images/motor-neuron-pathology_2d.png);
+}
+
 #contact-form-container {
     display: block;
+    padding: 20px;
+    align-self: flex-start;
+    height: auto;
+    background-color: #45554a;
+    border: 1px solid #13261F;
 }
 #contact-form {
     margin-bottom: auto;
@@ -379,11 +392,13 @@ main {
     border-radius: 5px;
     /* controls maximum width of form on page*/
     width: 100%;
-    min-width: 380px;
+    /*min-width: 380px;*/
     max-width: 800px;
     /* allows child h2 and div to center on screen */
     display: flex;
     justify-content: center; 
+    align-content: start;
+    border: 1px solid #13261F;
 }
 
 #contact-title {
@@ -479,6 +494,12 @@ footer {
         position: absolute;
         white-space: nowrap;
         width: 1px;
+    }
+
+    /* Contact page */
+    /* contact form section */
+    .contact-element {
+        width: 100%;
     }
 }
 
@@ -615,7 +636,7 @@ footer {
         width: 50%;
     }
 
-    #contact {
+   /* #contact {
         height: 800px;
     }
 
@@ -623,7 +644,7 @@ footer {
         margin-top: 100px;
         align-content: center;
     }
-
+    */
 }
 
 /* laptops and up from 992px */
@@ -720,10 +741,11 @@ footer {
         height: 350px;
         font-size: 200%;
     }
-
+    /*
     #contact {
        height: 1000px; 
     }
+    */
 }
 
 /* large screens - above 1200px */
@@ -788,9 +810,14 @@ footer {
     }
 
     /* contact form section */
-    #contact {
+    #contact-image {
+        rotate: 90deg;
+        height: 50%;
+    }
+
+    /*#contact {
         height: 1500px; 
-     }
+     } */
 }
 
 /* XL screens - above 2000px */
@@ -821,7 +848,7 @@ footer {
         font-size: 300%;
     }
     /* contact form section */
-    #contact {
+   /* #contact {
         height: 2000px; 
-     }
+     } */
 }
