@@ -117,32 +117,6 @@ main {
     flex-direction: column;
 }
 
-/* Hero section*/
-.hero {
-    width: 100%;
-    height: 250px;
-    background: url(../images/hero1.webp) no-repeat right center/cover;
-    /* to enable hero title positioning*/
-    position: relative;
-}
-
-#hero-title {
-    font-size: 150%;
-    background-color: rgba(158, 158, 123, 0.5);
-    padding: 10px 20px;
-    width: 270px;
-    height: 100px;
-    /* to keep title at bottom left of hero image*/
-    position: absolute;
-    bottom: 0;
-    /* to round background box corners on right edge */
-    border-radius: 0 15px 15px 0;
-}
-
-#hero-title h1,h2 {
-    color: #fdefd0;
-}
-
 /* Homepage */
 /* Homepage Hero section */
 #hero1 {
@@ -189,32 +163,6 @@ main {
     /*border: 1px solid #13261F;*/
 }
 
-/* for paragraphs hidden on screens smaller than 768px */
-/*#scientist p {
-    color: #45554a;
-    font-size: 50%;
-    width: 500px;
-    text-align: left; 
-   /* margin-top: 5px;
-    margin-right: 15%; 
-    position: relative;
-    padding-right: 30%;
-    /*border: 1px solid #13261F;
-    padding: 5px 35% 0 20%;*/
-}
-/*#coder p {
-    color: #45554a;
-    font-size: 50%;
-    width: 500px;
-    text-align: left;
-    /*margin-top: 5px;
-    margin-left: 15%;
-    position: relative;
-    padding-left: 30%;
-    /*padding: 5px 20% 0 35%;
-    border: 1px solid #13261F;
-}
-*/
  /* Homepage New Projects section */
 #projects-section {
     width: 100%;
@@ -589,16 +537,6 @@ footer {
     main {
         margin-top: 51px;
     }
-    
-    /* Hero section */
-    .hero {
-        height: 300px;
-    }
-
-    #hero1 {
-        height: 300px;
-        font-size: 120%;
-    }
 
     /* Homepage */
     /* hompage projects section */
@@ -674,7 +612,6 @@ footer {
         align-content: center;
     }
 
-
 }
 
 /* laptops and up from 992px */
@@ -708,17 +645,6 @@ footer {
     /* Main */
     main {
         margin-top: 67px;
-    }
-
-     /* Hero section */
-     .hero {
-        height: 400px;
-    }
-
-    #hero-title {
-        font-size: 200%;
-        width: 350px;
-        height: 130px;
     }
 
     /* Homepage */
@@ -808,11 +734,6 @@ footer {
     /* Main */
     main {
         margin-top: 84px;
-    }
-
-    /* Hero section */
-    .hero {
-        height: 500px;
     }
 
     /* Homepage */
