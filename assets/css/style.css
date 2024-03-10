@@ -12,8 +12,9 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #13261F;
-    /* responsive features */
+    /* to keep footer at bottom of window */
     min-height: 100vh;
+    /* to keep body elements stacked vertically relative to each other */
     display: flex;
     flex-direction: column;
 }
@@ -22,6 +23,11 @@ h1, h2, h3 {
     font-family: 'Podkova', sans-serif;
     color: #13261F;
     letter-spacing: 1px;
+}
+
+/* to allow footer to move up to meet shorter body content */
+.short-page {
+    min-height: auto;
 }
 
 /* header styles */
@@ -354,7 +360,6 @@ main {
     letter-spacing: 1px;
     width: 100%;
     height: auto;
-    background-color: #45554a;
     /* allows child elements to align or stack depending on screen size*/
     display: flex;
     flex-flow: row wrap;
@@ -365,7 +370,6 @@ main {
     box-sizing: border-box;
     display: block;
     align-content: start;
-    border: 1px solid #13261F;
 }
 
 .contact-element img{
@@ -374,35 +378,27 @@ main {
     display: block;
 }
 
-#contact-image {
-    background: url(../images/motor-neuron-pathology_2d.png);
-}
-
 #contact-form-container {
     display: block;
     padding: 20px;
     align-self: flex-start;
     height: auto;
-    background-color: #45554a;
-    border: 1px solid #13261F;
 }
 #contact-form {
     margin-bottom: auto;
-    background-color: rgba(69, 85, 74, 0.8);
-    border-radius: 5px;
+    /*background-color: rgba(69, 85, 74, 0.8);
+    border-radius: 5px;*/
     /* controls maximum width of form on page*/
     width: 100%;
-    /*min-width: 380px;*/
-    max-width: 800px;
+    max-width: 1000px;
     /* allows child h2 and div to center on screen */
     display: flex;
     justify-content: center; 
     align-content: start;
-    border: 1px solid #13261F;
 }
 
 #contact-title {
-    color: #fdefd0;
+    /*color: #fdefd0;*/
     font-weight: 500;
     padding: 5px;
     margin: 0 20px;
@@ -411,7 +407,7 @@ main {
 }
 
 #contact-block {
-    color: #fdefd0;
+    /*color: #fdefd0;*/
     font-weight: 500;
     margin: 50px 20px;
     /* controls maximum width of form on page*/
@@ -434,12 +430,12 @@ main {
 
 .text-input {
     width: 100%;
-    color: #fdefd0;
+    /*color: #fdefd0;*/
     padding: 5px;
     margin: 5px 0;
     background: transparent;
     border-radius: 5px;
-    border: 1px solid #fdefd0;
+    border: 1px solid #13261F;
 }
 
 #submit-button {
@@ -811,13 +807,13 @@ footer {
 
     /* contact form section */
     #contact-image {
-        rotate: 90deg;
-        height: 50%;
+        width: 40%;
+        max-width: 580px;
     }
-
-    /*#contact {
-        height: 1500px; 
-     } */
+    #contact-form-container {
+        width: 60%;
+        margin-top: 100px;
+    }
 }
 
 /* XL screens - above 2000px */
@@ -847,8 +843,5 @@ footer {
         height: 600px;
         font-size: 300%;
     }
-    /* contact form section */
-   /* #contact {
-        height: 2000px; 
-     } */
+
 }
