@@ -349,25 +349,37 @@ main {
     margin-top: 20px;
 }
 
-
 #contact {
     letter-spacing: 1px;
-    /* add background image*/
     width: 100%;
-    /*height: 600px;*/
-    background: url(../images/mn_tem_150x90_with-colour.webp) no-repeat center center/cover;
-    /* allows child form to center on screen*/
+    /* allows child elements to align or stack depending on screen size*/
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    border: 1px solid  #13261F;
+}
+.contact-element {
+    width: 50%;
+    /*box-sizing: border-box;
+    position: relative;
+    border: 1px solid  #13261F;*/
 }
 
+.contact-element img{
+    max-width: 100%;
+    min-width: 380px;
+    float: left;
+}
+#contact-form-container {
+    display: block;
+}
 #contact-form {
-    margin-top: 20px;
     margin-bottom: auto;
     background-color: rgba(69, 85, 74, 0.8);
     border-radius: 5px;
     /* controls maximum width of form on page*/
     width: 100%;
+    min-width: 380px;
     max-width: 800px;
     /* allows child h2 and div to center on screen */
     display: flex;
