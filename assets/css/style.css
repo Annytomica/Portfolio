@@ -425,12 +425,11 @@ main {
     min-width: 250px;
     width: 45%;
     /* div dimension that controls how big they get on large screens*/
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .text-input {
     width: 100%;
-    /*color: #fdefd0;*/
     padding: 5px;
     margin: 5px 0;
     background: transparent;
