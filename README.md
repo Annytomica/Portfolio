@@ -160,8 +160,13 @@ In Summary:
 
 
 ![GitHub deployments](https://img.shields.io/github/deployments/Annytomica/portfolio/github-pages)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Annytomica/portfolio)
 ![GitHub language count](https://img.shields.io/github/languages/count/Annytomica/portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/Annytomica/portfolio?color=yellow)
+![GitHub watchers](https://img.shields.io/github/watchers/Annytomica/portfolio)
+![GitHub forks](https://img.shields.io/github/forks/Annytomica/portfolio?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/Annytomica/portfolio?style=social)
+
 
 ## Credits
 I would like to acknowledge and thank the following people and resources used in the creation of this site.
