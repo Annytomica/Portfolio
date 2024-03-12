@@ -114,7 +114,7 @@ The About Me page is important to introduce Anny Devoy to the site visitor beyon
 #### Professional Media links on contact page hero banner
 On the hero banner the professional media links from the footer will be presented, in larger size than footer, to highlight them as another way to find out more about Anny Devoy’s projects.
 
-##### Features for when the number of portfolio projects increases:
+#### Features for when the number of portfolio projects increases:
 -	Singular pages for each portfolio project – hidden from navbar but linked to via the portfolio page. This would allow reduction of the number of images used on the portfolio page and thus limit the scrolling required on small screens.
 -	Make the Scientist and coder on homepage active links to the correct section on the portfolio page.
 -	Hide the publications page – this is a really boring looking page and while its important to link to relevant publications from the portfolio page and be available as a general reference, having it accessible from a different menu in the footer and removing from navbar would be a cleaner approach in the long-term as it is only relevant for the scientist half of the portfolio.
@@ -151,13 +151,14 @@ Accessibility and functionality – all pages showed high accessibility, high fu
 ## Deployment
 The site was deployed to GitHub pages using the recommended process <link>. 
 In Summary:
-1.	Within the GitHub repository for this project <link>, the settings tab at the top of the page was accessed.
-2.	From settings, the Pages tab was selected from the menu on the left side of the screen, within the Code and Automation section of the menu.
-3.	From Pages, the Source was set to ‘Deploy from a Branch’, and the Branch was set to ‘main’, using the dropdown menu with default label of ‘none’ before selection.
+1.	Within the GitHub repository for this project, the settings tab at the top of the page was accessed.
+2.	From settings, the Pages tab was selected from the menu on the left side of the screen (within the Code and Automation section of the menu).
+3.	From Pages, the Source was set to ‘Deploy from a Branch’, and the Branch was set to ‘main’.
 4.	Once main branch is selected, hit the save button (ignore the folder/(root) menu).
 5.	Once saved, the link to the active site will appear at the top of the page.
 6.	Alternatively, from the main repository page, within the menu on the right a ‘Deployments’ will now have appeared. This section provides a link to the active site as well as summarizes the number of updates the site has received since initial deployment.
 
+The github repository for this project can be found [here](https://github.com/Annytomica/portfolio/)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/Annytomica/portfolio/github-pages)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Annytomica/portfolio)
