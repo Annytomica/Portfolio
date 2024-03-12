@@ -31,11 +31,11 @@ On screens sizes of tablet and below the page links are a dropdown menu, indicat
 
 ![navbar small](assets/readme/readme_navbar_smallscreen.png)
 
-#### Hero banners
-The original hero artwork created in MidJourney was designed to represent the interplay between neuroscience and AI development– the area of tech that Anny is aiming to become part of. See below.
+#### Hero banner
+The original hero artwork created in MidJourney was designed to represent the interplay between neuroscience and AI development– the area of tech that Anny is aiming to become part of. Original image below.
 ![original hero image](assets/readme/readme_hero_full.png)
 
-However, the image was quite wide and limited the possibilities for overlaying page titles. Therefore, the image was modified in Adobe Photoshop such that each page had a hero banner with different elements of the original artwork to provide a continuity of theme across pages but with increased capacity for functional page titles.
+However, the image was quite wide and limited the possibilities for overlaying page titles. Therefore, the image was modified in Adobe Photoshop such that each page had a hero image with different elements of the original artwork to provide a continuity of theme across pages but with increased capacity for functional page titles.
 
 The portfolio and contact pages have different hero images for small and large screens to avoid issues of page title crowding.
 
@@ -47,17 +47,15 @@ Very simple and clean layout of four thumbnail images for latest projects that l
 The design has thumbnails with drop shadow, to attract attention and create the impression they are hovering on the page and highlight they are individual elements.
 
 #### Portfolio
-This is the largest page. It showcases all the projects. 
+This is the largest page. It showcases all 4 projects. 
 Each project has 2-4 images or video that best summarise the project. This is accompanied by one paragraph that provides a clear and succinct description of the project. Care is taken to not assume technical knowledge of the topic so that the information is accessible to everyone.
 ![portfolio]()
-The Big Data and Neuroscience projects have youtube videos embedded that help summarise the information.
+The Big Data and Neuroscience projects have youtube videos embedded that help summarise key information.
 
 The Genome Engineering and Front End projects have a mix of large and small images on large screens. The large images are replaced with small format images on small screens to enable efficient viewing.
 
-On large screens the images are presented in a row but as the screen size decreases they are stacked in columns, first at small laptop (992px) and then again at mobile (400px).
-
 #### Publications
-This is a simple yet visually boring page. Its importance is that it allows linking the portfolio projects to the relevant publications plus a general overview of Anny Devoy’s research output.
+This is a simple yet (sadly) visually boring page. Its importance is that it allows linking the portfolio projects to the relevant publications plus a general overview of Anny Devoy’s research output.
 ![publications](assets/readme/readme_publications.png)
 All publications are open access, which means anyone can access and read the papers without being blocked by a paywall. External links to access the full paper are provided for each publication.
 
@@ -68,7 +66,7 @@ The purpose of this page is to allow the visitor to contact Anny Devoy and to fi
 ![contact]()
 The main feature of this page is a contact form, where the user inputs name, email and company as well as the message. 
 
-The contact form takes half the page, with the other half taken up with a dramatic image of a motor neuron imaged by electron microscopy. As screen sizes decrease the form stacks on itself and then at mobile screen size the image stacks above the form.
+The contact form takes half the page, with the other half taken up with a dramatic image of a motor neuron imaged by electron microscopy. Due to the level of detail in the image, three variations of the image, of differing file size and orientation, was used, to enhance page load speed on mobiles and responsive to screen sizing. 
 
 #### Footer
 As this site is for professional purposes the focus was put on having professional media links rather than social media, of which Anny Devoy is not a big user.
