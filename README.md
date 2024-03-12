@@ -7,33 +7,6 @@ The live portfolio website can be accessed [here](https://annytomica.github.io/p
 
 ![Site Mockup](assets/readme/readme_site-mockup_homepage.png)
 
-## Technologies
-- HTML – for basic site structure
-- CSS – for visual appeal and responsive design features
-- GenAI – creation of hero image and logo
-    - ChatGPT 3.5 – visual concept creation and prompt development
-    - MidJourney – Image generation
-- Figma – visual concept development, colour palette selection
-- Balsamic – site map and wireframe creation 
-- Adobe Photoshop – Adjustment of image sizing and pixel density, modification of hero banner for each page.
-- Canva – Midjourney logo modification – background colour adjustment and circular crop
-- Pixelied.com – conversion of jpeg and png image files to webp for efficient loading
-- Favicon.io – generation of favicon from logo design.
-- UI.dev – amiresponsive was used to test each page responsivity to screen size and create site mockup images.
-
-## Site Design Process
-### Goal
-
-### Site Map
-
-### Visual Identity
-#### Logo
-#### Hero
-#### Colour Palette
-#### Design concept - research
-### Wireframe
-### Development process
-
 ## Features
 ### Existing features
 #### Logo
@@ -118,6 +91,46 @@ On the hero banner the professional media links from the footer will be presente
 -	Singular pages for each portfolio project – hidden from navbar but linked to via the portfolio page. This would allow reduction of the number of images used on the portfolio page and thus limit the scrolling required on small screens.
 -	Make the Scientist and coder on homepage active links to the correct section on the portfolio page.
 -	Hide the publications page – this is a really boring looking page and while its important to link to relevant publications from the portfolio page and be available as a general reference, having it accessible from a different menu in the footer and removing from navbar would be a cleaner approach in the long-term as it is only relevant for the scientist half of the portfolio.
+
+## Site Design Process
+### Goal
+The goal of the site is to communicate Anny Devoys experience and diverse skillset to a wide audience. The design needs:
+1.	to be clean and easy to navigate with logical internal links. 
+2.	visual appeal to draw visitors in and keep them on the site. 
+3.	to clearly communicate each project purpose while avoiding complex ideas and specialist terminology so all projects are accessible to any visitor regardless of background. 
+4.	to showcase projects from both research science and coding backgrounds.
+
+### Site Map
+The site map was developed in Balsamic. It follows a logical flow across four (not including About Me) pages – Home, Portfolio, Publications and Contact.
+![site map](assets/readme/readme_site-map.png)
+
+### Visual Identity
+The theme for visual identity was based on the interplay between neuroscience and AI, the two sides of Anny Devoy’s professional experience.
+#### Hero
+The initial design concept for the hero banner was created using ChatGPT to generate specific prompts that would allow creation of appropriate images in MidJourney. The prompts were then developed further with specific MidJourney cues to add artistic style, size ratio and version use.
+#### Colour Palette
+The colour palette was generated in Figma, extracting key colours from the Hero image generated in MidJourney. 
+![colour palette](assets/readme/readme_colour-palette.png)
+
+#### Logo
+#### Design concept - research
+
+### Wireframe
+### Development process
+
+## Technologies
+- HTML – for basic site structure
+- CSS – for visual appeal and responsive design features
+- GenAI – creation of hero image and logo
+    - ChatGPT 3.5 – visual concept creation and prompt development
+    - MidJourney – Image generation
+- Figma – visual concept development, colour palette selection
+- Balsamic – site map and wireframe creation 
+- Adobe Photoshop – Adjustment of image sizing and pixel density, modification of hero banner for each page.
+- Canva – Midjourney logo modification – background colour adjustment and circular crop
+- Pixelied.com – conversion of jpeg and png image files to webp for efficient loading
+- Favicon.io – generation of favicon from logo design.
+- UI.dev – amiresponsive was used to test each page responsivity to screen size and create site mockup images.
 
 ## Testing
 ### General Strategy
