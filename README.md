@@ -12,7 +12,7 @@ The live portfolio website can be accessed [here](https://annytomica.github.io/p
 #### Logo
 The logo was generated using MidJourney, using the initials AD as starting point, with clean lines and simplicity as theme. It was linked to the hero banner through requested colour palette – although this did not match perfectly for all colours and may be edited in future.
 
-![Logo](assets/readme/readme_logo.png)
+![Logo](assets/readme/readme_logo_small.png)
 
 The logo background shape and colour were altered using [Canva](https://www.canva.com/)
 
@@ -100,6 +100,7 @@ The goal of the site is to communicate Anny Devoys experience and diverse skills
 
 ### Site Map
 The site map was developed in Balsamic. It follows a logical flow across four (not including About Me) pages – Home, Portfolio, Publications and Contact.
+
 ![site map](assets/readme/readme_site-map.png)
 
 ### Visual Identity
