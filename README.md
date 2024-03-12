@@ -158,16 +158,10 @@ In Summary:
 5.	Once saved, the link to the active site will appear at the top of the page.
 6.	Alternatively, from the main repository page, within the menu on the right a ‘Deployments’ will now have appeared. This section provides a link to the active site as well as summarizes the number of updates the site has received since initial deployment.
 
-<insert github summary bar here>
+
 ![GitHub deployments](https://img.shields.io/github/deployments/Annytomica/portfolio/github-pages)
 ![GitHub language count](https://img.shields.io/github/languages/count/Annytomica/portfolio)
 ![GitHub top language](https://img.shields.io/github/languages/top/Annytomica/portfolio?color=yellow)
-![GitHub all releases](https://img.shields.io/github/downloads/rstan-dev/jan24-hackathon/total)
-![GitHub top language](https://img.shields.io/github/languages/top/rstan-dev/jan24-hackathon?color=yellow)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rstan-dev/jan24-hackathon)
-![GitHub forks](https://img.shields.io/github/forks/rstan-dev/jan24-hackathon?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/rstan-dev/jan24-hackathon?style=social)
-![GitHub Repo watchers](https://img.shields.io/github/watchers/rstan-dev/jan24-hackathon)
 
 ## Credits
 I would like to acknowledge and thank the following people and resources used in the creation of this site.
