@@ -25,6 +25,10 @@ h1, h2, h3 {
     letter-spacing: 1px;
 }
 
+h1 {
+    font-size: 4vw;
+}
+
 /* to allow footer to move up to meet shorter body content */
 .short-page {
     min-height: auto;
@@ -476,6 +480,14 @@ footer {
 
 /* all media querys */
 
+/* for small mobiles below 400px */
+@media screen and (max-width: 400px){
+    /* general styles */
+    h1 {
+        font-size: 1rem;
+    }
+}
+
 /* for small screens below 768px*/
 @media screen and (max-width: 767px){
     /* Main - general rule for all pages */
@@ -750,6 +762,11 @@ footer {
 
 /* large screens - above 1200px */
 @media screen and (min-width: 1200px) {
+    /* General Styles */
+    h1 {
+        font-size: 3.5rem;
+    }
+
     /* Header */
     #logo-image {
         width: 65px;
