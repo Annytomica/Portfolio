@@ -127,16 +127,19 @@ main {
     flex-direction: column;
 }
 
-/* Homepage */
-/* Homepage Hero section */
-#hero1 {
+.hero {
     width: 100%;
-    height: 150px;
-    background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
+    height: 22vh;
     /* to enable hero title positioning */
     position: relative;
     display: flex;
     align-content: center;
+}
+
+/* Homepage */
+/* Homepage Hero section */
+#hero1 {
+    background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
     justify-content: center;
 }
 
@@ -231,14 +234,8 @@ main {
 /* Portfolio page */
 /* Portfolio hero section */
 #hero2 {
-    width: 100%;
-    height: 170px;
     background: url(../images/hero1_portfolio_smallscreen.webp) no-repeat right center/cover;
-    /* to enable hero title positioning */
-    position: relative;
-    display: flex;
     justify-content: left; 
-    align-content: center;
 }
 
 #hero2-title {
@@ -285,12 +282,7 @@ main {
 /* Publications page*/
 /* Publications Hero section */
 #hero3 {
-    width: 100%;
-    height: 170px;
     background: url(../images/hero1_publications.webp) no-repeat left center/cover;
-    /* to enable hero title positioning */
-    position: relative;
-    display: flex;
     justify-content: right; 
 }
 
@@ -328,12 +320,7 @@ main {
 /* Contact Page*/
 /* Contact Hero section*/
 #hero4 {
-    width: 100%;
-    height: 170px;
     background: url(../images/hero1_contact_smallscreen.webp) no-repeat left center/cover;
-    /* to enable hero title positioning */
-    position: relative;
-    display: flex;
     justify-content: right; 
 }
 
@@ -509,29 +496,14 @@ footer {
 /* large mobiles and up from 400px */
 @media screen and (min-width: 400px) {
 
-    /* Homepage */
-    /* Homepage Hero section*/
-
-    #hero1 {
-        height: 200px;
-    }
-
     /* Portfolio page */
     /* Portfolio Hero section*/
-    #hero2 {
-        height: 170px;
-    }
-
     #hero2-title h1{
         margin: 0;
     }
 
     /* Publications page */
     /* Publications Hero section */
-    #hero3 {
-        height: 170px;
-    }
-    
     #hero3-title h1{
         margin: 0;
     }
@@ -578,24 +550,17 @@ footer {
         width: 280px;
         height: 300px;
         margin: 10px;
-        border: 1px solid #13261F;
     }
 
     /* portfolio Page*/
     /* portfolio hero section */
     #hero2 {
-        height: 170px;
         /* change background image to one suited for larger screens */
         background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
     }
 
     /* Publications page*/
     /* Publications hero section */
-
-    #hero3 {
-        height: 250px;
-    }
-
     #hero3-title {
         width: 60%;
     }
@@ -625,7 +590,6 @@ footer {
     /* Contact Page*/
     /* Contact Hero section*/
     #hero4 {
-        height: 250px;
         background: url(../images/hero1_contact_largescreens.webp) no-repeat left center/cover;
     }
 
@@ -677,13 +641,13 @@ footer {
         margin-top: 67px;
     }
 
-    /* Homepage */
-    /* Homepage Hero section*/
-
-    #hero1 {
-        height: 400px;
+    /* Hero section */
+    .hero {
+        height: 35vh;
     }
 
+    /* Homepage */
+    /* Homepage Hero section*/
     #scientist h1{
         padding-right: 40%;
     }
@@ -694,10 +658,6 @@ footer {
 
     /* Portfolio page */
     /* Portfolio Hero section*/
-    #hero2 {
-        height: 350px;
-    }
-
     #hero2-title {
         width: 50%;
         justify-content: center;
@@ -706,11 +666,6 @@ footer {
 
     /* Publications page*/
     /* Publications Hero section */
-
-    #hero3 {
-        height: 350px;
-    }
-
     #hero3-title {
         width: 60%;
         justify-content: left;
@@ -730,11 +685,6 @@ footer {
     }
 
     /* Contact Page*/
-    /* Contact hero section */
-    #hero4 {
-        height: 350px;
-    }
-
     /* contact form section*/
     #contact-form-container {
         margin-top: 50px;
@@ -769,13 +719,12 @@ footer {
         margin-top: 84px;
     }
 
-    /* Homepage */
-    /* Homepage Hero section*/
-
-    #hero1 {
-        height: 500px;
+    /* hero section */
+    .hero {
+        height: 45vh;
     }
 
+    /* Homepage */
     /* Homepage projects section*/
 
     #projects-area {
@@ -784,26 +733,11 @@ footer {
 
     /* portfolio Page */
     /* Portfolio Hero section*/
-    #hero2 {
-        height: 450px;
-    }
-
     #hero2-title {
         width: 45%;
     }
 
-    /* Publications page */
-    /* Publications Hero section */
-    #hero3 {
-        height: 450px;
-    }
-
     /* Contact Page*/
-    /* Contact hero section */
-    #hero4 {
-        height: 400px;
-    }
-
      /* contact form section */
      #image-small, #image-large {
         display: none;
@@ -824,24 +758,8 @@ footer {
     
     /* portfolio page*/
     /* Portfolio Hero section*/
-    #hero2 {
-        height: 500px;
-    }
-    
     #hero2-title {
         justify-content: right;
-    }
-
-    /* Publications page*/
-    /* Publications Hero section*/
-    #hero3 {
-        height: 600px;
-    }
-
-     /* Contact Page*/
-    /* Contact hero section */
-    #hero4 {
-        height: 600px;
     }
 
 }
