@@ -132,7 +132,6 @@ main {
 #hero1 {
     width: 100%;
     height: 150px;
-    font-size: 70%;
     background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
     /* to enable hero title positioning */
     position: relative;
@@ -161,16 +160,12 @@ main {
 
 #scientist h1 {
     position: relative;
-    /*width: 500px;*/
     padding-right: 30%;
-    /*border: 1px solid #13261F;*/
 }
 
 #coder h1 {
     position: relative;
-    /*width: 500px;*/
     padding-left: 30%;
-    /*border: 1px solid #13261F;*/
 }
 
  /* Homepage New Projects section */
@@ -238,7 +233,6 @@ main {
 #hero2 {
     width: 100%;
     height: 170px;
-    font-size: 100%;
     background: url(../images/hero1_portfolio_smallscreen.webp) no-repeat right center/cover;
     /* to enable hero title positioning */
     position: relative;
@@ -293,7 +287,6 @@ main {
 #hero3 {
     width: 100%;
     height: 170px;
-    font-size: 70%;
     background: url(../images/hero1_publications.webp) no-repeat left center/cover;
     /* to enable hero title positioning */
     position: relative;
@@ -337,7 +330,6 @@ main {
 #hero4 {
     width: 100%;
     height: 170px;
-    font-size: 100%;
     background: url(../images/hero1_contact_smallscreen.webp) no-repeat left center/cover;
     /* to enable hero title positioning */
     position: relative;
