@@ -315,13 +315,7 @@ main {
 }
 
 #hero4-title {
-    width: 60%;
     justify-content: left;
-}
-
-#hero4-title h1{
-    text-align: left;
-    margin-top: 20px;
 }
 
 /* contact form section */
@@ -551,11 +545,6 @@ footer {
     }
 
     /* Publications page*/
-    /* Publications hero section */
-    #hero3-title {
-        width: 60%;
-    }
-
     /* Publications content section */
     #publications-header {
         padding-bottom: 20px;
@@ -582,10 +571,6 @@ footer {
     /* Contact Hero section*/
     #hero4 {
         background: url(../images/hero1_contact_largescreens.webp) no-repeat left center/cover;
-    }
-
-    #hero4-title {
-        width: 50%;
     }
 
     /* contact form section */
@@ -661,12 +646,6 @@ footer {
 
 
     /* Publications page*/
-    /* Publications Hero section */
-    #hero3-title {
-        width: 60%;
-        justify-content: left;
-    }
-    
     /* Publications content section*/
     #publications-header {
         padding-bottom: 20px;
