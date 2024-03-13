@@ -522,14 +522,12 @@ footer {
 
     #hero1 {
         height: 200px;
-        font-size: 100%;
     }
 
     /* Portfolio page */
     /* Portfolio Hero section*/
     #hero2 {
         height: 170px;
-        font-size: 150%;
     }
 
     #hero2-title h1{
@@ -540,7 +538,6 @@ footer {
     /* Publications Hero section */
     #hero3 {
         height: 170px;
-        font-size: 120%;
     }
     
     #hero3-title h1{
@@ -596,7 +593,6 @@ footer {
     /* portfolio hero section */
     #hero2 {
         height: 170px;
-        font-size: 150%;
         /* change background image to one suited for larger screens */
         background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
     }
@@ -606,7 +602,6 @@ footer {
 
     #hero3 {
         height: 250px;
-        font-size: 150%;
     }
 
     #hero3-title {
@@ -639,7 +634,6 @@ footer {
     /* Contact Hero section*/
     #hero4 {
         height: 250px;
-        font-size: 150%;
         background: url(../images/hero1_contact_largescreens.webp) no-repeat left center/cover;
     }
 
@@ -696,7 +690,6 @@ footer {
 
     #hero1 {
         height: 400px;
-        font-size: 200%;
     }
 
     #scientist h1{
@@ -711,7 +704,6 @@ footer {
     /* Portfolio Hero section*/
     #hero2 {
         height: 350px;
-        font-size: 200%;
     }
 
     #hero2-title {
@@ -725,7 +717,6 @@ footer {
 
     #hero3 {
         height: 350px;
-        font-size: 200%;
     }
 
     #hero3-title {
@@ -750,7 +741,6 @@ footer {
     /* Contact hero section */
     #hero4 {
         height: 350px;
-        font-size: 200%;
     }
 
     /* contact form section*/
@@ -792,7 +782,6 @@ footer {
 
     #hero1 {
         height: 500px;
-        font-size: 250%;
     }
 
     /* Homepage projects section*/
@@ -805,7 +794,6 @@ footer {
     /* Portfolio Hero section*/
     #hero2 {
         height: 450px;
-        font-size: 250%;
     }
 
     #hero2-title {
@@ -816,14 +804,12 @@ footer {
     /* Publications Hero section */
     #hero3 {
         height: 450px;
-        font-size: 250%;
     }
 
     /* Contact Page*/
     /* Contact hero section */
     #hero4 {
         height: 400px;
-        font-size: 250%;
     }
 
      /* contact form section */
@@ -848,7 +834,6 @@ footer {
     /* Portfolio Hero section*/
     #hero2 {
         height: 500px;
-        font-size: 250%;
     }
     
     #hero2-title {
@@ -859,14 +844,12 @@ footer {
     /* Publications Hero section*/
     #hero3 {
         height: 600px;
-        font-size: 300%;
     }
 
      /* Contact Page*/
     /* Contact hero section */
     #hero4 {
         height: 600px;
-        font-size: 300%;
     }
 
 }
