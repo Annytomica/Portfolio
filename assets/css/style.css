@@ -166,16 +166,6 @@ main {
     flex-flow: row wrap;
 } 
 
-.scientist {
-    position: relative;
-    padding-right: 30%;
-}
-
-.coder {
-    position: relative;
-    padding-left: 30%;
-}
-
  /* Homepage New Projects section */
 .projects-section {
     width: 100%;
@@ -283,11 +273,6 @@ main {
 
 #hero3-title {
     justify-content: left;
-}
-
-#hero3-title h1{
-    text-align: left;
-    margin: 15px 0 0 20px;
 }
 
 /* Publications content section */
@@ -439,14 +424,23 @@ footer {
 
 /* all media querys */
 
-/* for small mobiles below 400px */
-@media screen and (max-width: 400px){
+/* for mobiles below 450px */
+@media screen and (max-width: 450px){
     /* general styles */
     h1 {
         font-size: 1rem;
     }
 
     /* homepage */
+    /* homepage hero section */
+    .scientist {
+        padding-right: 30%;
+    }
+
+    .coder {
+        padding-left: 30%;
+    }
+
     /* new projects section */
 
     .projects-header {
@@ -484,14 +478,8 @@ footer {
     }
 }
 
-/* large mobiles and up from 400px */
-@media screen and (min-width: 400px) {
-
-    /* Publications page */
-    /* Publications Hero section */
-    #hero3-title h1{
-        margin: 0;
-    }
+/* large mobiles and up from 450px */
+@media screen and (min-width: 450px) {
 
 }
 
@@ -731,7 +719,16 @@ footer {
 
 /* XL screens - above 2000px */
 @media screen and (min-width: 2000px) {
+    /* Homepage */
+    /* Homepage hero section */
+    .scientist {
+        padding-right: 50%;
+    }
     
+    .coder {
+        padding-left: 50%;
+    }
+
     /* portfolio page*/
     /* Portfolio Hero section*/
     #hero2-title {
