@@ -29,6 +29,14 @@ h1 {
     font-size: 4vw;
 }
 
+h2 {
+    font-size: 2.5vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
 /* to allow footer to move up to meet shorter body content */
 .short-page {
     min-height: auto;
@@ -276,17 +284,17 @@ main {
 }
 
 /* Publications content section */
-#publications {
+.publications {
     margin: 10px 20px;
 }
 
-#publications-header {
-    padding-bottom: 10px;
+.publications-header {
+    padding: 1vw 5vw;
+    text-align: center;
 }
 
-#publications-list p {
-    font-size: 13px;
-    padding-bottom: 5px;
+.publications-list p {
+    padding: 1vw 5vw;
     /* to create overhanging first word*/
     margin-left: 30px;
     text-indent: -30px;
@@ -431,6 +439,14 @@ footer {
         font-size: 1rem;
     }
 
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
     /* homepage */
     /* homepage hero section */
     .scientist {
@@ -450,6 +466,7 @@ footer {
     .projects-area {
         margin-top: 3rem;
     }
+
 }
 
 /* for small screens below 768px*/
@@ -533,17 +550,6 @@ footer {
     }
 
     /* Publications page*/
-    /* Publications content section */
-    #publications-header {
-        padding-bottom: 20px;
-        font-size: 120%;
-    }
-
-    #publications-list p {
-        font-size: 14px;
-        padding-bottom: 10px;
-    }
-
     /* to reveal extended author list for larger screens - from w3.org*/
     .et-al {
         clip-path: inset(100%);
@@ -635,13 +641,7 @@ footer {
 
     /* Publications page*/
     /* Publications content section*/
-    #publications-header {
-        padding-bottom: 20px;
-        font-size: 150%;
-    }
-
-    #publications-list p {
-        font-size: 16px;
+    .publications-list p {
         /* to increase overhanging first word*/
         margin-left: 50px;
         text-indent: -50px;
@@ -660,6 +660,14 @@ footer {
     /* General Styles */
     h1 {
         font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
     }
 
     /* Header */
