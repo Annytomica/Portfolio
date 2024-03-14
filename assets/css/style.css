@@ -467,6 +467,10 @@ footer {
     p {
         font-size: 0.8rem;
     }
+    /* hero section */
+    .hero-title-alt h1{
+        font-size: 1.3rem;
+    }
 
     /* homepage */
     /* homepage hero section */
@@ -492,10 +496,7 @@ footer {
     /* Hero section */
     #hero4-title {
         width: 60%;
-    }
-    #hero4-title h1 {
-        font-size: 1.5rem;
-    } 
+
     /* contact form section */
     .contact-title {
         font-size: 1.5rem;
@@ -575,6 +576,10 @@ footer {
     #hero2 {
         /* change background image to one suited for larger screens */
         background: url(../images/hero1_portfolio.webp) no-repeat right center/cover;
+    }
+
+    #hero2-title {
+        width: 40%;
     }
 
     /* Publications page*/
