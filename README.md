@@ -154,7 +154,8 @@ Accessibility and functionality – all pages showed high accessibility, high fu
 
 ## Bugs
 ### Fixed
--	The original concept for the contact page had the form overlayed on a background image. The contrast was not acceptable and the background image sizing on different screen sizes was erratic. These issues were resolved by replacing the design concept with one that has the form beside the image.
+-	The red colour (#C74E24) originally usd to highlight active page in nav bar failed accessability contrast checks and so was replaced with an off white colour (#FDEFD0) from the colour palette to fix. The 2px underline was left red so that the visual link to the logo and hero image was maintained.
+- The original concept for the contact page had the form overlayed on a background image. The contrast was not acceptable and the background image sizing on different screen sizes was erratic. These issues were resolved by replacing the design concept with one that has the form beside the image.
 -	Contact page image loading speeds on small screens was poor – identified from lighthouse assessment – so a new image for small screens was introduced to overcome this issue.
 -	Youtube videos would not work. The tutorial from [W3schools](https://www.w3schools.com/html/html_youtube.asp) helped me identify that the original links used lacked the correct /embed/ action within the link.
 
