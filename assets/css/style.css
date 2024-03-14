@@ -55,20 +55,20 @@ header a {
     color: #db9c0c;
 }
 
-#logo-image {
+.logo-image {
     width: 40px;
     float: left;
     margin: 0 10px 0 0;
 }
  
-#logo-name {
+.logo-name {
     color: #13261F;
     font-weight: 500;
     width: 9em;
     padding: 0.5em;
 }
 
-#menu {
+.menu {
     font-family: 'Podkova', sans-serif;
     font-size: 130%;
     list-style-type: none;
@@ -76,14 +76,14 @@ header a {
     letter-spacing: 1px; 
 }
 
-#menu > li {
+.menu > li {
     margin-bottom: 0.5em;
 }
 
 /* color change of menu item when on page*/
 .active {
-    color: #C74E24;
-    border-bottom: 1px solid #C74E24;
+    color: #fdefd0;
+    border-bottom: 2px solid #C74E24;
 }
 
 
@@ -495,11 +495,11 @@ footer {
         padding-right: 1rem;
     }
 
-    #menu {
+    .menu {
         display: flex;
     }
 
-    #menu > li {
+    .menu > li {
         padding-left: 1rem;
     }
 
@@ -507,7 +507,7 @@ footer {
         display: none;
     }
 
-    #logo-image {
+    .logo-image {
         margin: 5px 10px 0 0;
     }
 
@@ -575,19 +575,19 @@ footer {
 /* laptops and up from 992px */
 @media screen and (min-width: 992px) {
     /* Header */ 
-    #logo-image {
+    .logo-image {
         width: 55px;
     }
 
-    #logo-image:hover {
+    .logo-image:hover {
         border: 1px solid #9E9E7B;
     }
     
-    #logo-name {
+    .logo-name {
         font-size: 2rem;
     }
 
-    #logo-name:hover {
+    .logo-name:hover {
         color: #9E9E7B;
     }
 
@@ -595,7 +595,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    #menu a:hover {
+    .menu a:hover {
         color: #9E9E7B;
         border-bottom: 1px solid #9E9E7B;
     }
@@ -663,17 +663,17 @@ footer {
     }
 
     /* Header */
-    #logo-image {
+    .logo-image {
         width: 65px;
     }
     
-    #logo-name {
+    .logo-name {
         font-size: 2.5rem;
         padding: 0.5em 2em;
         width: 10em;
     }
     
-    #menu > li {
+    .menu > li {
         padding-left: 3rem;
     }
 
