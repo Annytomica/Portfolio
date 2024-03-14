@@ -298,6 +298,15 @@ main {
 /* Publications content section */
 .publications {
     margin: 10px 20px;
+    /* to center content on screen when max width reached */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publications div {
+    /* to allow max screen width control*/
+    max-width: 1200px;
 }
 
 .publications-header {
