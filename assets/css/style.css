@@ -357,7 +357,7 @@ main {
     align-content: start;
 }
 
-#contact-title {
+.contact-title {
     /*color: #fdefd0;*/
     font-weight: 500;
     padding: 5px;
@@ -366,7 +366,7 @@ main {
     position: absolute; 
 }
 
-#contact-block {
+.contact-block {
     /*color: #fdefd0;*/
     font-weight: 500;
     margin: 50px 20px;
@@ -379,7 +379,7 @@ main {
     justify-content: center;
 }
 
-#contact-block div {
+.contact-block div {
     margin: 0 10px;
     /* div dimensions that control when divs stack vs align in row */ 
     min-width: 250px;
@@ -525,7 +525,7 @@ footer {
     }
 
     .logo-image {
-        margin: 5px 10px 0 0;
+        margin: 5px 10px 5px 0;
     }
 
     /* Main */
