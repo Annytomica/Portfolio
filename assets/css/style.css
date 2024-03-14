@@ -372,7 +372,7 @@ main {
     margin: 50px 20px;
     /* controls maximum width of form on page*/
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     /* allows the details and message divs to wrap on wider screens */
     display: flex;
     flex-flow: row wrap;
@@ -399,7 +399,7 @@ main {
 
 #submit-button {
     color: #fdefd0;
-    background: #C74E24;
+    background: #13261F;
     font-family: 'podkova', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -465,6 +465,19 @@ footer {
 
     .projects-area {
         margin-top: 3rem;
+    }
+
+    /* Contact page */
+    /* Hero section */
+    #hero4-title {
+        width: 60%;
+    }
+    #hero4-title h1 {
+        font-size: 1.5rem;
+    } 
+    /* contact form section */
+    .contact-title {
+        font-size: 1.5rem;
     }
 
 }
@@ -648,6 +661,11 @@ footer {
     }
 
     /* Contact Page*/
+    /* contact hero section */
+    #hero4 {
+        height: 22vh;
+    }
+    
     /* contact form section*/
     #contact-form-container {
         margin-top: 50px;
@@ -710,6 +728,10 @@ footer {
     }
 
     /* Contact Page*/
+    /* contact hero section */
+    #hero4 {
+        height: 30vh;
+    }
      /* contact form section */
      #image-small, #image-large {
         display: none;
