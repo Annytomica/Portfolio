@@ -520,12 +520,6 @@ footer {
     }
 }
 
-/* large mobiles and up from 450px */
-@media screen and (min-width: 450px) {
-
-}
-
-
 /* tablets and up from 768px */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -641,6 +635,10 @@ footer {
         height: 35vh;
     }
 
+    .hero-alt {
+        height: 22vh;
+    }
+
     /* Homepage */
     /* Homepage Hero section*/
     .scientist {
@@ -659,8 +657,7 @@ footer {
     /* Portfolio page */
     /* Portfolio Hero section*/
     #hero2-title {
-        width: 50%;
-        justify-content: center;
+        width: 45%;
     }
 
 
@@ -673,11 +670,6 @@ footer {
     }
 
     /* Contact Page*/
-    /* contact hero section */
-    #hero4 {
-        height: 22vh;
-    }
-    
     /* contact form section*/
     #contact-form-container {
         margin-top: 50px;
@@ -725,6 +717,10 @@ footer {
         height: 45vh;
     }
 
+    .hero-alt {
+        height: 30vh;
+    }
+
     /* Homepage */
     /* Homepage projects section*/
 
@@ -733,19 +729,9 @@ footer {
         margin-top: 7rem;
     }
 
-    /* portfolio Page */
-    /* Portfolio Hero section*/
-    #hero2-title {
-        width: 45%;
-    }
-
     /* Contact Page*/
-    /* contact hero section */
-    #hero4 {
-        height: 30vh;
-    }
-     /* contact form section */
-     #image-small, #image-large {
+    /* contact form section */
+    #image-small, #image-large {
         display: none;
     }
 
@@ -756,11 +742,16 @@ footer {
     #contact-form-container {
         margin-top: 100px;
     }
-
 }
 
 /* XL screens - above 2000px */
 @media screen and (min-width: 2000px) {
+    /* Main */
+    /* hero section */
+    .hero-alt {
+        height: 45vh;
+    }
+
     /* Homepage */
     /* Homepage hero section */
     .scientist {
@@ -770,11 +761,4 @@ footer {
     .coder {
         padding-left: 50%;
     }
-
-    /* portfolio page*/
-    /* Portfolio Hero section*/
-    #hero2-title {
-        justify-content: right;
-    }
-
 }
