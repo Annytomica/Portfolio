@@ -182,6 +182,26 @@ main {
     justify-content: center;
 }
 
+.projects-intro {
+    width: 100%;
+    padding: 2vw 6vw 0 6vw;
+    /* to center intro above projects */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-intro h2 {
+    /* to make intro distinct */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #13261F;
+    padding: 0.5vw;
+    /* for adaptive sizing for screen size*/
+    max-width: 1000px;
+    min-width: 250px;
+}
 .projects-header {
     width: 100%;
     max-height: 50px;
