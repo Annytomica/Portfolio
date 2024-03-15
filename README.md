@@ -9,8 +9,16 @@ The live portfolio website can be accessed [here](https://annytomica.github.io/p
 
 ## Features
 ### Existing features
+#### Hero banner
+The hero artwork was created with GenAI (CHatGPT then MidJourney) using the theme of representing the interplay between neuroscience and AI development– the area of tech that Anny is aiming to become part of. 
+![original hero image](assets/readme/readme_hero_full.png)
+
+However, the original image (above) was quite wide and limited the possibilities for overlaying page titles. Therefore, the image was modified in Adobe Photoshop such that each page had a hero image with different elements of the original artwork. This provided a continuity of theme across pages but with increased capacity for functional page titles.
+
+The portfolio and contact pages have different hero images for small and large screens to avoid issues of page title crowding.
+
 #### Logo
-The logo was generated using MidJourney, using the initials AD as starting point, with clean lines and simplicity as theme. It was linked to the hero banner through requested colour palette – although this did not match perfectly for all colours and may be edited in future.
+The logo was generated using MidJourney, using the initials AD as starting point, with same theme of Neuroscience/AI as for hero image. It was also linked to the hero banner through requested colour palette. The logo shows a stylised line graphic representation of a head and brain while incorporating the initials AD. 
 
 ![Logo](assets/readme/readme_logo_small.png)
 
@@ -19,54 +27,50 @@ The logo background shape and colour were altered using [Canva](https://www.canv
 A matching favicon was generated from the logo using [Favicon.io](https://favicon.io/favicon-converter/)
 
 #### Navigation bar
-The Navbar is featured on all pages of the site and its structure and functionality is based on the navbar from the ‘love running’ walkthrough project.
+The Navbar is featured on all pages of the site and its structure and functionality is based on the navbar from the ‘[love running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu)’ walkthrough project.
 
-It has links to all pages – home, portfolio, publications and contact plus the logo on the left side of the nav bar is also a link to the homepage.
+It has links to all pages – home, portfolio, publications and contact on the right. The logo on the left side of the nav bar is also a link to the homepage. There is an additional hidden easter egg for visitors to find.
 ![Navbar large](assets/readme/readme_navbar_largescreen.png)
-The active page is highlighted by colour change to #C74E24 plus presence of underline. The color contrast of navbar background and active colour scores badly for normal font sizes that are below 14pt. However, as the font in the navbar is never below 14pt and is a heavier weight than normal it was kept.
+The active page is highlighted by colour change to #FDEFD0, with 2pt underline in #C74E24 – colour choices to link to hero and colour palette.
 
-Hovering over the links in the nav bar changes them to #9E9E7B with underline. This color passed contrast testing. 
+Hovering over the links in the nav bar changes them to #9E9E7B with 2pt underline. 
 
 On screens sizes of tablet and below the page links are a dropdown menu, indicated by using the three stacked bars icon from font awesome.
 
 ![navbar small](assets/readme/readme_navbar_smallscreen.png)
 
-#### Hero banner
-The original hero artwork created in MidJourney was designed to represent the interplay between neuroscience and AI development– the area of tech that Anny is aiming to become part of. Original image below.
-![original hero image](assets/readme/readme_hero_full.png)
-
-However, the image was quite wide and limited the possibilities for overlaying page titles. Therefore, the image was modified in Adobe Photoshop such that each page had a hero image with different elements of the original artwork to provide a continuity of theme across pages but with increased capacity for functional page titles.
-
-The portfolio and contact pages have different hero images for small and large screens to avoid issues of page title crowding.
-
 #### Homepage
 The Scientist and Coder titles provide a succinct summary of who Anny Devoy is and immediately piques the interest of the site visitor.
 ![homepage](assets/readme/readme_homepage.png)
-Very simple and clean layout of four thumbnail images for latest projects that link to the relevant sections in the portfolio page
+There is a brief introduction paragraph to further introduce Anny and explain what she does and what she is about.
 
-The design has thumbnails with drop shadow, to attract attention and create the impression they are hovering on the page and highlight they are individual elements.
+This is followed by a very simple and clean layout of four thumbnail images for latest projects that link to the relevant sections in the portfolio page. The design has the thumbnails with drop shadow, to attract attention and create the impression they are hovering on the page and highlight they are individual elements.
 
 #### Portfolio
 This is the largest page. It showcases all 4 projects. 
-Each project has 2-4 images or video that best summarise the project. This is accompanied by one paragraph that provides a clear and succinct description of the project. Care is taken to not assume technical knowledge of the topic so that the information is accessible to everyone.
+
+Each project has 3-4 images or video that best summarise the project. This is accompanied by one paragraph that provides a clear and succinct description of the project. Care is taken to not assume technical knowledge of the topic so that the information is accessible to everyone.
 ![portfolio]()
-The Big Data and Neuroscience projects have youtube videos embedded that help summarise key information.
+
+The Big Data and Neuroscience projects have youtube videos embedded that help summarise the information presented.
 
 The Genome Engineering and Front End projects have a mix of large and small images on large screens. The large images are replaced with small format images on small screens to enable efficient viewing.
 
 #### Publications
-This is a simple yet (sadly) visually boring page. Its importance is that it allows linking the portfolio projects to the relevant publications plus a general overview of Anny Devoy’s research output.
-![publications](assets/readme/readme_publications.png)
-All publications are open access, which means anyone can access and read the papers without being blocked by a paywall. External links to access the full paper are provided for each publication.
+This is a very simple page. Its importance is that:
+1.	It allows linking the portfolio projects to the relevant publications plus a general overview of Anny Devoy’s research output.
+2.	All publications are open access, which means anyone can access and read the papers without being blocked by a paywall. External links to access the full paper are provided for each publication.
 
-On smaller screens the authors list is contracted to just the first four authors, the remainder being replaced by et al. , to limit the screen space each publication takes up and reduce scrolling.
+![publications](assets/readme/readme_publications.png)
+
+On smaller screens the authors list is contracted to just the first four authors, the remainder being replaced by et al. , to limit the screen space each publication takes up and reduce scrolling. The code for this feature was taken from a specific tutorial on [W3.org](https://www.w3.org/WAI/WCAG22/Techniques/css/C7).
 
 #### Contact
-The purpose of this page is to allow the visitor to contact Anny Devoy and to find out more about her.
+The purpose of this page is to allow the visitor to contact Anny Devoy.
 ![contact]()
 The main feature of this page is a contact form, where the user inputs name, email and company as well as the message. 
 
-The contact form takes half the page, with the other half taken up with a dramatic image of a motor neuron imaged by electron microscopy. Due to the level of detail in the image, three variations of the image, of differing file size and orientation, was used, to enhance page load speed on mobiles and responsive to screen sizing. 
+The contact form takes half the page, with the other half taken up with a dramatic image of a motor neuron imaged by electron microscopy – providing a visual link to other pages. As screen sizes decrease the form stacks on itself and then at mobile screen size the image stacks above the form.
 
 #### Footer
 As this site is for professional purposes the focus was put on having professional media links rather than social media, of which Anny Devoy is not a big user.
@@ -88,23 +92,24 @@ On the hero banner the professional media links from the footer will be presente
 #### Features for when the number of portfolio projects increases:
 -	Singular pages for each portfolio project – hidden from navbar but linked to via the portfolio page. This would allow reduction of the number of images used on the portfolio page and thus limit the scrolling required on small screens.
 -	Make the Scientist and coder on homepage active links to the correct section on the portfolio page.
--	Hide the publications page – this is a really boring looking page and while its important to link to relevant publications from the portfolio page and be available as a general reference, having it accessible from a different menu in the footer and removing from navbar would be a cleaner approach in the long-term as it is only relevant for the scientist half of the portfolio.
+-	Hide the publications page – While it is important to link to relevant publications from the portfolio page and be available as a general reference, this is a boring looking page. Having it accessible from a different menu in the footer and removing from navbar would be a cleaner approach in the long-term as it is only relevant for the scientist half of the portfolio.
 
 ## Site Design Process
 ### Goal
 The goal of the site is to communicate Anny Devoys experience and diverse skillset to a wide audience. The design needs:
-1.	to be clean and easy to navigate with logical internal links. 
-2.	visual appeal to draw visitors in and keep them on the site. 
-3.	to clearly communicate each project purpose while avoiding complex ideas and specialist terminology so all projects are accessible to any visitor regardless of background. 
-4.	to showcase projects from both research science and coding backgrounds.
+1.	to showcase projects from both research science and coding backgrounds.
+2.	to clearly communicate each project purpose while avoiding complex ideas and specialist terminology so all projects are accessible to any visitor regardless of background. 
+3.	visual appeal to draw visitors in and keep them on the site.
+4.	to be clean and easy to navigate with logical internal links. 
+
 
 ### Site Map
-The site map was developed in Balsamic. It follows a logical flow across four (not including About Me) pages – Home, Portfolio, Publications and Contact.
+The site map was developed in Balsamic. It follows a logical flow across four pages – Home, Portfolio, Publications and Contact.
 
 ![site map](assets/readme/readme_site-map.png)
 
 ### Visual Identity
-The theme for visual identity was based on the interplay between neuroscience and AI, the two sides of Anny Devoy’s professional experience.
+The theme for visual identity was based on the interplay between neuroscience and AI, the two sides of Anny Devoy’s professional experience. The starting point was creating the key hero image with GenAI and building the visual identify from this.
 #### Hero
 The initial design concept for the hero banner was created using ChatGPT to generate specific prompts that would allow creation of appropriate images in MidJourney. The prompts were then developed further with specific MidJourney cues to add artistic style, size ratio and version use.
 #### Colour Palette
@@ -112,11 +117,13 @@ The colour palette was generated in Figma, extracting key colours from the Hero 
 ![colour palette](assets/readme/readme_colour-palette.png)
 
 #### Logo
+The Logo was developed in MidJourney to complement the hero image. The same theme of Neuroscience/AI was used and the hero colour palette was requested. The artistic style was for simplicity, clean lines and flat graphic. While the colour palette was not incorporated with complete accuracy, the design concept was successful. The logo was adapted for use on the site and then also used to create a matching favicon.
 #### Design concept - research
-
+Research was done on how other scientists, data scientists and developers created portfolio sites to showcase their work. Elements were taken from many sites. The visual integration of these ideas was then mocked up in Figma to work out which ideas worked best to allow a simple and clean site with easy navigation to be created.
 ### Wireframe
+Once the visual identity was decided, the wireframe structure and functional flow of the site was created in Balsamic. The wireframe can be accessed [here]().
 ### Development process
-
+The site was constructed with a logical flow – creating each page in empty box format to replicate the wireframe before starting to add content. The navigation bar and footer were completed for all pages, then the basic hero for all pages before focusing on page specific content. The hero design was changed early on, as it became clear the original design concept was not working when incorporating responsive design features. The pages were completed in the following order – home, publications, contact, portfolio. Portfolio was left last as it had the most content and complex structure. Multiple iterations of the portfolio page were developed. Many features from the early design concept did not work well for the information being used and required adaptation. The wireframe was also adapted to reflect these changes.
 ## Technologies
 - HTML – for basic site structure
 - CSS – for visual appeal and responsive design features
@@ -133,16 +140,16 @@ The colour palette was generated in Figma, extracting key colours from the Hero 
 
 ## Testing
 ### General Strategy
-The site was deployed very early on github pages, when just the basic structure of each page plus the nav bar were ready. This allowed daily assessment of functionality of the deployed site and helped identify any issues quickly so they could be fixed before moving on to new features. Gitpod was used as the IDE and the site was run on a server live during development so code could be assessed immediately. Chrome Devtools were actively used during gitpod sessions to test responsive features for different screen sizes as they were developed. Using this strategy most bugs and functionality issues were identified and resolved quickly, before they became a major issue for the site.
+The site was deployed very early on github pages, when just the basic structure of each page plus the nav bar were ready. This allowed daily assessment of functionality of the deployed site and helped identify any issues quickly so they could be fixed before moving on to new features. Gitpod was used as the IDE and the site was run on a server live during development so code could be assessed immediately. Chrome Devtools were actively used during gitpod coding sessions to test responsive features for different screen sizes as they were developed. Changes to code were pushed multiple times a day. Using this strategy most bugs and functionality issues were identified and resolved quickly before they became a major issue for the site.
 
 ### Devices and Browsers
 #### Web Browsers
 Chrome (primary), Firefox , Edge and Brave
 
 #### Devices
-- Phones: Pixel4a, iPhone x, Galaxy x
-- Tablets: iPad 9.5”, Surface 12”
-- Laptops: Dell Inspirion 13”, MacBook Air 13”, MacBook Pro 17"
+- Phones: Pixel4a, iPhoneXR, GalaxyS10
+- Tablets: iPad 9.5”, Surface Pro 12” (older model)
+- Laptops: Dell Inspirion 13”, MacBook Air 13”, MacBook Pro 17" (older model)
 - Desktop screens: BenQ PD series 27”
 
 ### Final Validation
@@ -185,23 +192,23 @@ The github repository for this project can be found [here](https://github.com/An
 ## Credits
 I would like to acknowledge and thank the following people and resources used in the creation of this site.
 ### Content
--	[W3schools.com]() was used repeatedly for tutorial guidance on responsive design, CSS flex properties, html character entities and insertion of youtube video.
--	[Medium.com]() was used for guidance on image swapping for small screens and cool features to use in README.md <links>
--	Code for responsive nav bar was taken from the Code Institute [Love Running]() walkthrough project. <link>
--	Code for hiding text on small screens - used for publications page to hide authors - was taken from [W3schools.com]() <link>
--	The icons in the footer and navbar are from [Font Awesome]()
+-	[W3schools.com](https://www.w3schools.com/) was used repeatedly for tutorial guidance on responsive design, CSS flex properties, html character entities and insertion of youtube video.
+-	[Medium.com](https://medium.com/) was used for guidance on image swapping for small screens and cool features to use in README.md
+-	Code for responsive nav bar was taken from the Code Institute Love Running walkthrough project. The code can be found [here](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu)
+-	Code for hiding text on small screens in the midle of paragraphs - used for publications page to hide authors - was taken from W3.org. The code can be found [here](https://www.w3.org/WAI/WCAG22/Techniques/css/C7)
+-	The icons in the footer and navbar are from [Font Awesome](https://fontawesome.com/)
 -	The form content submission validator was taken from Code Institute course content
 
 ### Media
--	The youtube video that explains ALS used on portfolio page was created by ….
--	The illustration in the genome engineering project was created by Megan Abel – iammeganabel.com. Megan granted permission for use.
+-	The youtube video that explains ALS used on portfolio page was created by [Nature Video](https://www.youtube.com/@NatureVideoChannel)
+-	The illustration in the genome engineering project was created by Megan Abel – [iammeganabel.com.](https://iammeganabel.com/) Megan granted permission for use.
 -	The Github summary bar used in README.md is from [shields.io](https://shields.io/badges/)
 -	All other media used is property of Anny Devoy
 
 ### Acknowledgements
 Design inspiration was taken from:
-- blogs about portfolio site design at [Hostinger](https://www.hostinger.co.uk/tutorials/web-developer-portfolio), [freecodecamp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/) and [careerfoundry](https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/) <link>
-- The portfolio sites of [Tim Hopper](https://tdhopper.com/), [Ger Inberg](https://gerinberg.com/)and [Denise Chandler](https://denisechandler.com/)
+- blogs about portfolio site design at [Hostinger](https://www.hostinger.co.uk/tutorials/web-developer-portfolio), [freecodecamp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/) and [careerfoundry](https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/)
+- The portfolio sites of [Tim Hopper](https://tdhopper.com/), [Ger Inberg](https://gerinberg.com/) and [Denise Chandler](https://denisechandler.com/)
 - [Adham Danaway](https://www.adhamdannaway.com/), whose portfolio website concept was simple, beautiful and many design concepts translated perfectly for the two split roles of Anny Devoy
 
 My mentor, Medale Oluwafemi, for his invaluable guidance and feedback.
