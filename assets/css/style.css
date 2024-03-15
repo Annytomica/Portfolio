@@ -155,6 +155,11 @@ main {
 }
 
 /* Homepage */
+/* to remove default hyperlink decoration */
+#main-home a {
+    text-decoration: none;
+}
+
 /* Homepage Hero section */
 #hero1 {
     background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
