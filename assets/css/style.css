@@ -284,7 +284,7 @@ main {
     padding: 1vw 5vw;
 }
 
-.portfolio-text h1,p {
+.portfolio-text h1, .portfolio-text p {
     max-width: 1100px;
 }
 
