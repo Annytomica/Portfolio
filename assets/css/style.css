@@ -283,6 +283,9 @@ main {
     max-width: 1100px;
 }
 
+.portfolio-text h1 {
+    text-align: center;
+}
 .portfolio-image {
     display: flex;
     justify-content: center;
