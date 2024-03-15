@@ -162,7 +162,7 @@ main {
 
 /* Homepage Hero section */
 #hero1 {
-    background: url(../images/hero1_home_short.webp) no-repeat center center/cover;
+    background: url(../images/hero1_home.webp) no-repeat center center/cover;
     justify-content: center;
 }
 
