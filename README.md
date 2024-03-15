@@ -42,7 +42,7 @@ On screens sizes of tablet and below the page links are a dropdown menu, indicat
 #### Homepage
 The Scientist and Coder titles provide a succinct summary of who Anny Devoy is and immediately piques the interest of the site visitor.
 ![homepage](assets/readme/readme_homepage.png)
-There is a brief introduction paragraph to further introduce Anny and explain what she does and what she is about.
+There is a brief introduction paragraph to further introduce Anny and explain what she does and what she is about. This paragraph conndenses to just the first two sentences for small screens.
 
 This is followed by a very simple and clean layout of four thumbnail images for latest projects that link to the relevant sections in the portfolio page. The design has the thumbnails with drop shadow, to attract attention and create the impression they are hovering on the page and highlight they are individual elements.
 
@@ -50,7 +50,7 @@ This is followed by a very simple and clean layout of four thumbnail images for 
 This is the largest page. It showcases all 4 projects. 
 
 Each project has 3-4 images or video that best summarise the project. This is accompanied by one paragraph that provides a clear and succinct description of the project. Care is taken to not assume technical knowledge of the topic so that the information is accessible to everyone.
-![portfolio]()
+![portfolio](assets/readme/readme_portfolio.png)
 
 The Big Data and Neuroscience projects have youtube videos embedded that help summarise the information presented.
 
@@ -67,7 +67,7 @@ On smaller screens the authors list is contracted to just the first four authors
 
 #### Contact
 The purpose of this page is to allow the visitor to contact Anny Devoy.
-![contact]()
+![contact](assets/readme/readme_contact.png)
 The main feature of this page is a contact form, where the user inputs name, email and company as well as the message. 
 
 The contact form takes half the page, with the other half taken up with a dramatic image of a motor neuron imaged by electron microscopy – providing a visual link to other pages. As screen sizes decrease the form stacks on itself and then at mobile screen size the image stacks above the form.
