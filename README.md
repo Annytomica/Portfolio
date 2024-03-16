@@ -165,9 +165,11 @@ Accessibility – all pages showed high accessibility using Chrome [Lighthouse D
 - The original concept for the contact page had the form overlayed on a background image. The contrast was not acceptable and the background image sizing on different screen sizes was erratic. These issues were resolved by replacing the design concept with one that has the form beside the image.
 -	Contact page image loading speeds on was very poor – identified from lighthouse assessment – a new image for with more compression was introduced to overcome this issue, although it can still be improved further for mobile devices.
 -	Youtube videos would not work. The tutorial from [W3schools](https://www.w3schools.com/html/html_youtube.asp) helped me identify that the original links used lacked the correct /embed/ action within the link.
+- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as the aspect ratio is chosen to match the image dimensions. Object-fit: cover has been used as a solution for the hero-banner image which was most noticably impacted by aspect-ratio. It did not work as a fix for other images - which is why it features in both fixed and unfixed bugs.
 
 ### Unfixed
-- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as the aspect ratio is chosen to match the image dimensions. It will require more research about how to fix it.
+
+- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as the aspect ratio is chosen to match the image dimensions. Object-fit: cover has been used as a solution for the hero-banner image which was most noticably impacted by aspect-ratio. It did not work as a fix for other images - which is why it features in both fixed and unfixed bugs.
 - Not so much a bug, but more a performance issue. The scientific pictures have large amounts of detail and do not compress to small file sizes without significant distortion. This large file size led to slower loading speeds on mobiles. I will need to find a better method of file compression to resolve this issue.
 - Again, more preformance issue than bug - the hidden authors on small screens code - taken from w3.org - causes a performance issue flagged up by lighthouse. I will need to find alternative code to create the same feature. 
 
