@@ -119,9 +119,9 @@ The colour palette was generated in Figma, extracting key colours from the Hero 
 #### Logo
 The Logo was developed in MidJourney to complement the hero image. The same theme of Neuroscience/AI was used and the hero colour palette was requested. The artistic style was for simplicity, clean lines and flat graphic. While the colour palette was not incorporated with complete accuracy, the design concept was successful. The logo was adapted for use on the site and then also used to create a matching favicon.
 #### Design concept - research
-Research was done on how other scientists, data scientists and developers created portfolio sites to showcase their work. Elements were taken from many sites. The visual integration of these ideas was then mocked up in Figma to work out which ideas worked best to allow a simple and clean site with easy navigation to be created.
+Research was done on how other scientists, data scientists and developers created portfolio sites to showcase their work. Elements were taken from many sites. The visual integration of these ideas was then mocked up in Figma to work out which ideas worked best to allow a simple and clean site with easy navigation to be created. The mockup in figma can be accessed [here](assets/readme/readme_figma_mockup.png)
 ### Wireframe
-Once the visual identity was decided, the wireframe structure and functional flow of the site was created in Balsamic. The wireframe can be accessed [here]().
+Once the visual identity was decided, the wireframe structure and functional flow of the site was created in Balsamic. The wireframe for each page can be accessed here - [Home](assets/readme/wireframe_home.png), [portfolio](assets/readme/wireframe_portfolio.png), [publications](assets/readme/wireframe_publications.png), [contact](assets/readme/wireframe_contact.png).
 ### Development process
 The site was constructed with a logical flow – creating each page in empty box format to replicate the wireframe before starting to add content. The navigation bar and footer were completed for all pages, then the basic hero for all pages before focusing on page specific content. The hero design was changed early on, as it became clear the original design concept was not working when incorporating responsive design features. The pages were completed in the following order – home, publications, contact, portfolio. Portfolio was left last as it had the most content and complex structure. Multiple iterations of the portfolio page were developed. Many features from the early design concept did not work well for the information being used and required adaptation. The wireframe was also adapted to reflect these changes.
 ## Technologies
@@ -153,23 +153,27 @@ Chrome (primary), Firefox , Edge and Brave
 - Desktop screens: BenQ PD series 27”
 
 ### Final Validation
-HTML – all pages passed validation with no errors detected using the official [W3C HTML validator](https://validator.w3.org/). The summary of results can be found [here]()
+HTML – all pages passed validation with no errors detected using the official [W3C HTML validator](https://validator.w3.org/). The summary of results can be found [here](assets/readme/html-validation.png)
 
-CSS – all pages passed validation with no errors detected using the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/). The summary of results can be found [here]()
+CSS – all pages passed validation with no errors detected using the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/). The summary of results can be found [here](assets/readme/css-valdation.png)
 
-Accessibility and functionality – all pages showed high accessibility, high functionality and SEO optimisation using Chrome [Lighthouse DevTools](https://developer.chrome.com/docs/lighthouse/). The summary of results can be found [here]()
+Accessibility – all pages showed high accessibility using Chrome [Lighthouse DevTools](https://developer.chrome.com/docs/lighthouse/). The summary of results can be found [here](assets/readme/Lighthouse-validation.png)
 
 ## Bugs
 ### Fixed
 -	The red colour (#C74E24) originally usd to highlight active page in nav bar failed accessability contrast checks and so was replaced with an off white colour (#FDEFD0) from the colour palette to fix. The 2px underline was left red so that the visual link to the logo and hero image was maintained.
 - The original concept for the contact page had the form overlayed on a background image. The contrast was not acceptable and the background image sizing on different screen sizes was erratic. These issues were resolved by replacing the design concept with one that has the form beside the image.
--	Contact page image loading speeds on small screens was poor – identified from lighthouse assessment – so a new image for small screens was introduced to overcome this issue.
+-	Contact page image loading speeds on was very poor – identified from lighthouse assessment – a new image for with more compression was introduced to overcome this issue, although it can still be improved further for mobile devices.
 -	Youtube videos would not work. The tutorial from [W3schools](https://www.w3schools.com/html/html_youtube.asp) helped me identify that the original links used lacked the correct /embed/ action within the link.
 
 ### Unfixed
+- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as teh aspect ratio is chosen to match the image dimensions. It will require more research about how to fix it.
+- Not so much a bug, but more a performance issue. The scientific pictures have large amounts of detail and do not compress to small file sizes without significant distortion. This large file size led to slower loading speeds on mobiles. I will need to find a better method of file compression to resolve this issue.
+- Again, more preformance issue than bug - the hidden authors on small screens code - taken from w3.org - causes a performance issue flagged up by lighthouse. I will need to find alternative code to create the same feature. 
 
 ## Deployment
-The site was deployed to GitHub pages using the recommended process <link>. 
+The site was deployed to GitHub pages using the recommended process.
+
 In Summary:
 1.	Within the GitHub repository for this project, the settings tab at the top of the page was accessed.
 2.	From settings, the Pages tab was selected from the menu on the left side of the screen (within the Code and Automation section of the menu).
