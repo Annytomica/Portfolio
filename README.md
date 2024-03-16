@@ -167,7 +167,7 @@ Accessibility – all pages showed high accessibility using Chrome [Lighthouse D
 -	Youtube videos would not work. The tutorial from [W3schools](https://www.w3schools.com/html/html_youtube.asp) helped me identify that the original links used lacked the correct /embed/ action within the link.
 
 ### Unfixed
-- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as teh aspect ratio is chosen to match the image dimensions. It will require more research about how to fix it.
+- the css aspect-ratio function is unreliable. It sometimes squashes images when the page loads. It is not clear why this happens as the aspect ratio is chosen to match the image dimensions. It will require more research about how to fix it.
 - Not so much a bug, but more a performance issue. The scientific pictures have large amounts of detail and do not compress to small file sizes without significant distortion. This large file size led to slower loading speeds on mobiles. I will need to find a better method of file compression to resolve this issue.
 - Again, more preformance issue than bug - the hidden authors on small screens code - taken from w3.org - causes a performance issue flagged up by lighthouse. I will need to find alternative code to create the same feature. 
 
