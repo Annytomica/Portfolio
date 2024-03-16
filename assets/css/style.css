@@ -396,11 +396,7 @@ main {
     height: auto;
     display: block;
 }
-/*
-#image-large, #image-xl {
-    display: none;
-}
-*/
+
 #contact-form-container {
     display: block;
     padding: 20px;
